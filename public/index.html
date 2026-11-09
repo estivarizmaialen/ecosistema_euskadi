@@ -33,6 +33,7 @@
       <button role="tab" data-tab="ecosistema">Ecosistema <span class="count" id="c-ecosistema"></span></button>
       <button role="tab" data-tab="tematicas">Temáticas <span class="count" id="c-tematicas"></span></button>
       <button role="tab" data-tab="cambios">Cambios</button>
+      <button role="tab" data-tab="fuentes">Última actualización <span class="count aviso" id="c-fuentes"></span></button>
       <button role="tab" data-tab="glosario">¿Qué hace cada cargo?</button>
     </nav>
   </header>
@@ -86,6 +87,11 @@
     <section id="tab-cambios" class="tab" hidden>
       <div class="intro"><p>En cada actualización se comparan los datos oficiales con los anteriores. Aquí se registran los nombramientos, ceses, dimisiones y cambios de cargo detectados.</p></div>
       <div id="list-cambios"></div>
+    </section>
+
+    <section id="tab-fuentes" class="tab" hidden>
+      <div class="intro"><p>Los datos se descargan de las fuentes oficiales cada noche. Aquí puedes ver cuándo se actualizó por última vez cada fuente y si en la última descarga hubo algún problema. Si una fuente falla, la web sigue mostrando los datos que se descargaron la última vez que funcionó.</p></div>
+      <div id="list-fuentes" class="fuentes"></div>
     </section>
 
     <section id="tab-glosario" class="tab" hidden>

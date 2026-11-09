@@ -487,10 +487,54 @@ function renderGlosario() {
     ].map(([t, d]) => `<div class="gl"><h3>${esc(t)}</h3><p>${esc(d)}</p></div>`).join('');
 }
 
+function renderFuentes() {
+  const d = S.data;
+  const hora = (iso) => (iso ? new Date(iso).toLocaleString('es-ES', { dateStyle: 'long', timeStyle: 'short' }) : '');
+  // Cada error empieza por el nombre de la fuente («Parlamento: …»); así se asigna a su fila
+  const errores = (d.errores || []).map((texto) => ({ texto, fuente: texto.split(':')[0].trim(), usado: false }));
+  const erroresDe = (...nombres) => errores.filter((e) => nombres.includes(e.fuente)).map((e) => ((e.usado = true), e.texto));
+  const terr = (id) => d.forales?.territorios?.find((t) => t.id === id);
+  const caidas = (d.ecosistema?.agentes || []).filter((a) => a.online === false);
+  const filas = [
+    { nombre: 'Gobierno Vasco', web: d.gobierno?.fuente, cuando: d.gobierno?.actualizado, errores: erroresDe('Gobierno') },
+    { nombre: 'Parlamento Vasco', web: d.parlamento?.fuente, cuando: d.parlamento?.actualizado, errores: erroresDe('Parlamento') },
+    ...[['gipuzkoa', 'Diputación Foral de Gipuzkoa'], ['bizkaia', 'Diputación Foral de Bizkaia'], ['araba', 'Diputación Foral de Álava']].map(([id, nombre]) => ({
+      nombre, web: terr(id)?.fuente, cuando: terr(id)?.actualizado, errores: erroresDe(nombre, 'Diputaciones'),
+    })),
+    {
+      nombre: 'Ecosistema de innovación', web: '', cuando: d.ecosistema?.actualizado, errores: erroresDe('Ecosistema'),
+      nota: caidas.length
+        ? `<details><summary>${caidas.length} webs de entidades no respondieron a la descarga automática</summary><p>Puede que funcionen en el navegador: algunas bloquean las descargas automáticas o tienen mal el certificado. De ellas se muestran los datos anteriores.</p><p>${caidas.map((a) => esc(a.nombre)).join(' · ')}</p></details>`
+        : '',
+    },
+  ];
+  const otros = errores.filter((e) => !e.usado).map((e) => e.texto);
+  if (otros.length) filas.push({ nombre: 'Otros avisos', errores: otros });
+
+  $('#list-fuentes').innerHTML =
+    `<p class="fuentes-gen">Última ejecución de la actualización: <strong>${esc(hora(d.generado))}</strong></p>` +
+    filas
+      .map((f) => {
+        const ok = !f.errores.length;
+        const estado = ok
+          ? '<span class="tag alta">Correcto</span>'
+          : `<span class="tag baja">Error</span>`;
+        const cuando = f.cuando ? `Datos actualizados el <strong>${esc(hora(f.cuando))}</strong>` : f.nombre === 'Otros avisos' ? '' : 'Todavía no hay datos de esta fuente';
+        const detalle = ok ? '' : `<p class="fuente-error">En la última actualización no se pudo descargar${f.cuando ? '; se siguen mostrando los datos anteriores' : ''}.</p><p class="fuente-tec">Detalle técnico: ${f.errores.map(esc).join('<br>')}</p>`;
+        return `<div class="fuente ${ok ? '' : 'con-error'}">
+          <div class="fuente-cab"><h3>${esc(f.nombre)}</h3>${estado}</div>
+          ${cuando ? `<p>${cuando}</p>` : ''}
+          ${f.web ? `<p class="fuente-web"><a href="${esc(f.web)}" target="_blank" rel="noopener">${esc(f.web.replace(/^https?:\/\//, ''))}</a></p>` : ''}
+          ${detalle}${f.nota || ''}
+        </div>`;
+      })
+      .join('');
+}
+
 // ---------- Navegación ----------
 
 function render() {
-  const fn = { gobierno: renderGobierno, parlamento: renderParlamento, diputaciones: renderDiputaciones, ecosistema: renderEcosistema, tematicas: renderTematicas, cambios: renderCambios, glosario: renderGlosario }[S.tab];
+  const fn = { gobierno: renderGobierno, parlamento: renderParlamento, diputaciones: renderDiputaciones, ecosistema: renderEcosistema, tematicas: renderTematicas, cambios: renderCambios, fuentes: renderFuentes, glosario: renderGlosario }[S.tab];
   fn();
 }
 
@@ -596,10 +640,9 @@ $('#actualizar').hidden = !['localhost', '127.0.0.1'].includes(location.hostname
   $('#c-diputaciones').textContent = territorios().reduce((n, t) => n + t.cargos.length, 0) || '';
   $('#c-ecosistema').textContent = S.data.ecosistema?.agentes.length || '';
   $('#c-tematicas').textContent = S.tematicas?.tematicas?.length || '';
-  if (S.data.errores?.length) {
-    $('#alert').hidden = false;
-    $('#alert').textContent = `Aviso: en la última actualización falló alguna fuente y se muestran los datos anteriores (${S.data.errores.join('; ')}).`;
-  }
+  // Los fallos de descarga se explican en la pestaña «Última actualización»; aquí solo una marca discreta
+  $('#c-fuentes').textContent = S.data.errores?.length ? '!' : '';
+  $('#c-fuentes').title = S.data.errores?.length ? 'En la última actualización falló alguna fuente' : '';
   const h = location.hash.slice(1);
-  setTab(['gobierno', 'parlamento', 'diputaciones', 'ecosistema', 'tematicas', 'cambios', 'glosario'].includes(h) ? h : 'gobierno');
+  setTab(['gobierno', 'parlamento', 'diputaciones', 'ecosistema', 'tematicas', 'cambios', 'fuentes', 'glosario'].includes(h) ? h : 'gobierno');
 })();
