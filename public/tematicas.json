@@ -1,0 +1,124 @@
+{
+  "_info": "Clasificación editorial por temáticas. 'participacion': 'participa' (toma parte: es su competencia o actividad directa) o 'podria' (tomaría parte: relación indirecta o potencial). En departamentos, 'cargos' son expresiones regulares sobre el texto del cargo (así sobreviven a los relevos de personas) y '@titular' es quien dirige el departamento. En ecosistema, 'ids' son agentes de data/ecosistema.json y 'tipos' incluye a todos los agentes de ese tipo.",
+  "tematicas": [
+    {
+      "id": "longevidad",
+      "nombre": "Longevidad",
+      "descripcion": "Envejecimiento saludable, cuidados, autonomía de las personas mayores y economía de la longevidad.",
+      "departamentos": [
+        { "institucion": "gv", "departamento": "Salud", "participacion": "participa", "papel": "Atención sanitaria y sociosanitaria a las personas mayores, cronicidad e investigación en salud.", "cargos": ["@titular", "Salud y Transformación Digital", "Atención Sociosanitaria", "Investigación, Innovación y Evaluación", "Salud Pública y Adicciones", "General de Osakidetza"] },
+        { "institucion": "gv", "departamento": "Bienestar, Juventud y Reto Demográfico", "participacion": "participa", "papel": "Políticas de bienestar, apoyos a la vida autónoma y solidaridad entre generaciones.", "cargos": ["@titular", "Viceconsejer. de Bienestar", "Apoyos para la Vida Plena", "Solidaridad Intergeneracional"] },
+        { "institucion": "gv", "departamento": "Ciencia, Universidades e Innovación", "participacion": "podria", "papel": "Financiación de la investigación sobre envejecimiento.", "cargos": ["Viceconsejer. de Ciencia", "Política Científica"] },
+        { "institucion": "gv", "departamento": "Vivienda y Agenda Urbana", "participacion": "podria", "papel": "Vivienda adaptada y barrios amigables con las personas mayores.", "cargos": ["Viceconsejer. de Vivienda", "Regeneración de Barrios"] },
+        { "institucion": "gv", "departamento": "Hacienda y Finanzas", "participacion": "podria", "papel": "Previsión social complementaria.", "cargos": ["Política Financiera y Previsión Social"] },
+        { "institucion": "gv", "departamento": "Economía, Trabajo y Empleo", "participacion": "podria", "papel": "Economía social ligada a los cuidados.", "cargos": ["Economía Social"] },
+        { "institucion": "gv", "departamento": "Cultura y Política Lingüística", "participacion": "podria", "papel": "Actividad física para un envejecimiento activo.", "cargos": ["Actividad Física y Deporte"] },
+        { "institucion": "gipuzkoa", "departamento": "Cuidados y Políticas Sociales", "participacion": "participa", "papel": "Atención a la dependencia, centros y residencias, e innovación en cuidados.", "cargos": ["@titular", "Agenda, Innovación y Evaluación", "Dependencia y Discapacidad", "Gestión Integral de Centros"] },
+        { "institucion": "gipuzkoa", "departamento": "Promoción Económica y Proyectos Estratégicos", "participacion": "podria", "papel": "Economía de la longevidad como oportunidad empresarial.", "cargos": ["@titular", "Directora? de Proyectos Estratégicos"] },
+        { "institucion": "bizkaia", "departamento": "Acción Social", "participacion": "participa", "papel": "Promoción de la autonomía personal y atención a la dependencia.", "cargos": ["@titular", "Promoción de la Autonomía Personal"] },
+        { "institucion": "araba", "departamento": "Políticas Sociales", "participacion": "participa", "papel": "Servicios sociales para personas mayores e innovación en su gestión.", "cargos": ["@titular", "Servicios Sociales", "Innovación, Sistemas de Gestión"] }
+      ],
+      "ecosistema": [
+        { "nombre": "Estrategia y cuidados", "participacion": "participa", "ids": ["adinberri", "matia"] },
+        { "nombre": "Investigación en envejecimiento y cronicidad", "participacion": "participa", "ids": ["biogipuzkoa", "biosistemak"] },
+        { "nombre": "Investigación en salud y neurociencia", "participacion": "podria", "ids": ["bioef", "biobizkaia", "bioaraba", "achucarro", "bcbl", "ehu", "deusto"] },
+        { "nombre": "Empresa y tecnología para la salud", "participacion": "podria", "ids": ["bhc", "tecnalia"] },
+        { "nombre": "Sociedad civil y economía social", "participacion": "podria", "ids": ["sareensarea", "ede", "konfekoop", "kutxa", "bbk", "vital"] }
+      ]
+    },
+    {
+      "id": "biociencias",
+      "nombre": "Biociencias",
+      "descripcion": "Investigación biomédica, biotecnología, tecnologías sanitarias y su transferencia a empresas y hospitales.",
+      "departamentos": [
+        { "institucion": "gv", "departamento": "Salud", "participacion": "participa", "papel": "Investigación e innovación sanitaria en el sistema público de salud.", "cargos": ["@titular", "Salud y Transformación Digital", "Investigación, Innovación y Evaluación"] },
+        { "institucion": "gv", "departamento": "Ciencia, Universidades e Innovación", "participacion": "participa", "papel": "Política científica y financiación de los centros de investigación.", "cargos": ["@titular", "Viceconsejer. de Ciencia", "Política Científica", "Directora? de Innovación"] },
+        { "institucion": "gv", "departamento": "Industria, Transición Energética y Sostenibilidad", "participacion": "participa", "papel": "Apoyo a empresas biotecnológicas, red tecnológica y capital riesgo.", "cargos": ["Viceconsejer. de Tecnología", "Directora? de Tecnología e Innovación", "General de SPRI", "Consorcio Científico Tecnológico", "Capital Riesgo"] },
+        { "institucion": "gv", "departamento": "Alimentación, Desarrollo Rural, Agricultura y Pesca", "participacion": "podria", "papel": "Biotecnología agraria y alimentaria.", "cargos": ["General de NEIKER", "Política e Industria Alimentaria"] },
+        { "institucion": "gipuzkoa", "departamento": "Promoción Económica y Proyectos Estratégicos", "participacion": "podria", "papel": "Apoyo territorial a la innovación y a proyectos estratégicos.", "cargos": ["@titular", "Directora? de Innovación"] },
+        { "institucion": "bizkaia", "departamento": "Promoción Económica", "participacion": "podria", "papel": "Apoyo territorial a empresas innovadoras.", "cargos": ["@titular", "Competitividad Territorial"] },
+        { "institucion": "araba", "departamento": "Desarrollo Económico y Sostenibilidad", "participacion": "podria", "papel": "Apoyo territorial a la innovación.", "cargos": ["@titular", "Desarrollo Económico e Innovación"] }
+      ],
+      "ecosistema": [
+        { "nombre": "Institutos de investigación sanitaria", "participacion": "participa", "ids": ["biogipuzkoa", "biobizkaia", "bioaraba", "biosistemak", "bioef"] },
+        { "nombre": "Ciencia biomédica y biofísica", "participacion": "participa", "ids": ["cicbiogune", "cicbiomagune", "achucarro", "biofisika"] },
+        { "nombre": "Tecnología aplicada y empresa", "participacion": "participa", "ids": ["bhc", "gaiker", "cidetec"] },
+        { "nombre": "Capacidades científicas relacionadas", "participacion": "podria", "ids": ["ehu", "tecnun", "ikerbasque", "nanogune", "polymat", "bcmaterials", "bcam", "bcbl", "neiker", "azti", "tecnalia", "ceit"] },
+        { "nombre": "Impulso y creación de empresas", "participacion": "podria", "ids": ["brta", "spri", "bind40", "beaz", "bicgipuzkoa", "bicaraba"] }
+      ]
+    },
+    {
+      "id": "reto-demografico",
+      "nombre": "Reto demográfico",
+      "descripcion": "Natalidad y familias, emancipación juvenil, inmigración, atracción de talento y equilibrio entre territorios.",
+      "departamentos": [
+        { "institucion": "gv", "departamento": "Bienestar, Juventud y Reto Demográfico", "participacion": "participa", "papel": "Departamento responsable del reto demográfico, la juventud, las familias y la acogida de personas inmigrantes.", "cargos": ["@titular", "Viceconsejer. de Juventud", "Juventud y Emancipación", "Infancia, Adolescencia y Familias", "Acogida e Integración", "Solidaridad Intergeneracional"] },
+        { "institucion": "gv", "departamento": "Vivienda y Agenda Urbana", "participacion": "participa", "papel": "Acceso a la vivienda, clave para la emancipación, y planificación del territorio.", "cargos": ["@titular", "Viceconsejer. de Vivienda", "Directora? de Planificación Territorial", "General de Alokabide"] },
+        { "institucion": "gv", "departamento": "Alimentación, Desarrollo Rural, Agricultura y Pesca", "participacion": "participa", "papel": "Desarrollo rural y mantenimiento de la población en las zonas rurales.", "cargos": ["@titular", "Viceconsejer. de Alimentación y Desarrollo Rural", "Desarrollo Rural y Políticas Europeas", "de Hazi,"] },
+        { "institucion": "gv", "departamento": "Economía, Trabajo y Empleo", "participacion": "podria", "papel": "Empleo juvenil y datos de población.", "cargos": ["Directora? de Empleo$", "General de Lanbide", "Eustat"] },
+        { "institucion": "gv", "departamento": "Educación", "participacion": "podria", "papel": "Escuelas infantiles y formación profesional.", "cargos": ["Haurreskolak", "Viceconsejer. de Formación Profesional"] },
+        { "institucion": "gv", "departamento": "Lehendakaritza", "participacion": "podria", "papel": "Relación con la diáspora y posible retorno.", "cargos": ["Comunidad Vasca en el Exterior"] },
+        { "institucion": "gipuzkoa", "departamento": "Equilibrio Territorial Verde", "participacion": "participa", "papel": "Equilibrio entre comarcas y sostenimiento del medio rural.", "cargos": ["@titular", "Agricultura y Equilibrio Territorial"] },
+        { "institucion": "gipuzkoa", "departamento": "Cultura, Cooperación, Juventud y Deportes", "participacion": "podria", "papel": "Políticas de juventud del territorio.", "cargos": ["Promoción Cultural y Juventud"] },
+        { "institucion": "gipuzkoa", "departamento": "Cuidados y Políticas Sociales", "participacion": "podria", "papel": "Protección a la infancia e inclusión.", "cargos": ["Protección a la Infancia"] },
+        { "institucion": "bizkaia", "departamento": "Empleo, Cohesión Social e Igualdad", "participacion": "podria", "papel": "Empleo y cohesión social.", "cargos": ["@titular", "General de Empleo"] },
+        { "institucion": "bizkaia", "departamento": "Medio Natural y Agricultura", "participacion": "podria", "papel": "Actividad en el medio rural.", "cargos": ["@titular", "General de Agricultura"] },
+        { "institucion": "bizkaia", "departamento": "Infraestructuras y Desarrollo Territorial", "participacion": "podria", "papel": "Desarrollo equilibrado del territorio.", "cargos": ["@titular"] },
+        { "institucion": "araba", "departamento": "Equilibrio Territorial y Ordenación del Territorio", "participacion": "participa", "papel": "Equilibrio entre la capital y las cuadrillas rurales.", "cargos": ["@titular", "Directora? de Equilibrio Territorial", "Directora? de Ordenación del Territorio"] }
+      ],
+      "ecosistema": [
+        { "nombre": "Atracción y retención de talento", "participacion": "participa", "ids": ["bizkaiatalent"] },
+        { "nombre": "Desarrollo de las comarcas", "participacion": "podria", "tipos": ["Agencia de desarrollo comarcal"] },
+        { "nombre": "Empleo y talento", "participacion": "podria", "ids": ["lanbide", "ikerbasque"] },
+        { "nombre": "Conocimiento y análisis del territorio", "participacion": "podria", "ids": ["orkestra", "euskampus", "neiker", "adinberri"] },
+        { "nombre": "Sociedad civil", "participacion": "podria", "ids": ["sareensarea", "ede", "konfekoop", "kutxa", "bbk", "vital"] }
+      ]
+    },
+    {
+      "id": "industria-4-0",
+      "nombre": "Industria 4.0",
+      "descripcion": "Digitalización de la industria, fabricación avanzada, inteligencia artificial y ciberseguridad industrial.",
+      "departamentos": [
+        { "institucion": "gv", "departamento": "Industria, Transición Energética y Sostenibilidad", "participacion": "participa", "papel": "Departamento responsable de la política industrial, la tecnología y la digitalización de las empresas.", "cargos": ["@titular", "Viceconsejer. de Promoción Industrial", "Viceconsejer. de Tecnología", "Directora? de Tecnología e Innovación", "Directora? de Transformación Digital", "Desarrollo y Administración Industrial", "General de SPRI", "General del Parque Tecnológico", "Consorcio Científico Tecnológico", "Capital Riesgo"] },
+        { "institucion": "gv", "departamento": "Ciencia, Universidades e Innovación", "participacion": "podria", "papel": "Investigación e innovación que alimentan a la industria.", "cargos": ["Viceconsejer. de Ciencia", "Directora? de Innovación"] },
+        { "institucion": "gv", "departamento": "Educación", "participacion": "podria", "papel": "Formación profesional para los perfiles técnicos de la industria.", "cargos": ["Viceconsejer. de Formación Profesional"] },
+        { "institucion": "gv", "departamento": "Economía, Trabajo y Empleo", "participacion": "podria", "papel": "Recualificación de personas trabajadoras.", "cargos": ["Empleo y Formación de Lanbide"] },
+        { "institucion": "gv", "departamento": "Seguridad", "participacion": "podria", "papel": "Ciberseguridad de las empresas industriales.", "cargos": ["Agencia Vasca de Ciberseguridad"] },
+        { "institucion": "gipuzkoa", "departamento": "Promoción Económica y Proyectos Estratégicos", "participacion": "participa", "papel": "Programas forales de competitividad e innovación empresarial.", "cargos": ["@titular", "Directora? de Promoción Económica", "Directora? de Innovación"] },
+        { "institucion": "bizkaia", "departamento": "Promoción Económica", "participacion": "participa", "papel": "Programas forales de competitividad empresarial.", "cargos": ["@titular", "Competitividad Territorial"] },
+        { "institucion": "araba", "departamento": "Desarrollo Económico y Sostenibilidad", "participacion": "participa", "papel": "Programas forales de desarrollo económico e innovación.", "cargos": ["@titular", "Desarrollo Económico e Innovación"] }
+      ],
+      "ecosistema": [
+        { "nombre": "Políticas, red tecnológica y aceleración", "participacion": "participa", "ids": ["spri", "brta", "pte", "bind40"] },
+        { "nombre": "Centros tecnológicos", "participacion": "participa", "ids": ["tecnalia", "ikerlan", "vicomtech", "ceit", "tekniker", "azterlan", "gaiker", "ideko", "lortek"] },
+        { "nombre": "Clústeres y grupos industriales", "participacion": "participa", "ids": ["afm", "gaia", "acicae", "hegan", "mondragon"] },
+        { "nombre": "Sectores y apoyo a la empresa", "participacion": "podria", "ids": ["bcsc", "innobasque", "basquetrade", "clusterenergia", "foromaritimo", "mlc", "cidetec", "confebask", "adegi", "cebek", "sea", "lanbide", "beaz", "bicgipuzkoa", "bicaraba"] },
+        { "nombre": "Universidad y ciencia", "participacion": "podria", "ids": ["mu", "ehu", "deusto", "tecnun", "bcam", "bcmaterials"] },
+        { "nombre": "Agencias comarcales con programas industriales o digitales", "participacion": "podria", "ids": ["goieki", "leartibai", "iraurgi", "debegesa", "tolosaldea", "oarsoaldea", "egaz"] }
+      ]
+    },
+    {
+      "id": "transporte",
+      "nombre": "Transporte",
+      "descripcion": "Movilidad de personas y mercancías, infraestructuras, puertos, logística y la industria que fabrica los vehículos.",
+      "departamentos": [
+        { "institucion": "gv", "departamento": "Movilidad Sostenible", "participacion": "participa", "papel": "Departamento responsable de la movilidad y las infraestructuras de transporte, incluida la red ferroviaria vasca.", "cargos": ["@titular", "Viceconsejer. de Infraestructuras", "Infraestructuras del Transporte", "Estrategia para la Movilidad", "General ETS"] },
+        { "institucion": "gv", "departamento": "Alimentación, Desarrollo Rural, Agricultura y Pesca", "participacion": "participa", "papel": "Puertos y asuntos marítimos.", "cargos": ["Viceconsejer. de Pesca, Puertos", "Puertos, Asuntos Marítimos"] },
+        { "institucion": "gv", "departamento": "Seguridad", "participacion": "participa", "papel": "Gestión del tráfico y seguridad vial.", "cargos": ["de Tráfico"] },
+        { "institucion": "gv", "departamento": "Industria, Transición Energética y Sostenibilidad", "participacion": "podria", "papel": "Descarbonización y electrificación del transporte.", "cargos": ["Viceconsejer. de Transición Energética", "Descarbonización", "General de EVE"] },
+        { "institucion": "gv", "departamento": "Vivienda y Agenda Urbana", "participacion": "podria", "papel": "Planificación territorial de los corredores de transporte.", "cargos": ["Viceconsejer. de Planificación Territorial"] },
+        { "institucion": "gipuzkoa", "departamento": "Movilidad, Turismo y Ordenación del Territorio", "participacion": "participa", "papel": "Transporte público del territorio.", "cargos": ["@titular", "Movilidad y Transporte Público"] },
+        { "institucion": "gipuzkoa", "departamento": "Infraestructuras Viarias y Estrategia Territorial", "participacion": "participa", "papel": "Red de carreteras del territorio.", "cargos": ["@titular", "Directora? de Infraestructuras Viarias", "Planificación y Explotación"] },
+        { "institucion": "bizkaia", "departamento": "Transportes, Movilidad y Turismo", "participacion": "participa", "papel": "Transporte público del territorio.", "cargos": ["@titular"] },
+        { "institucion": "bizkaia", "departamento": "Infraestructuras y Desarrollo Territorial", "participacion": "participa", "papel": "Red de carreteras del territorio.", "cargos": ["@titular", "Innovación y Gestión Viaria"] },
+        { "institucion": "araba", "departamento": "Movilidad Sostenible e Infraestructuras Viarias", "participacion": "participa", "papel": "Transporte y red de carreteras del territorio.", "cargos": ["@titular", "Directora? de Infraestructuras Viarias", "Movilidad y Transportes"] }
+      ],
+      "ecosistema": [
+        { "nombre": "Clústeres de movilidad, automoción, aeronáutica y mar", "participacion": "participa", "ids": ["mlc", "acicae", "hegan", "foromaritimo"] },
+        { "nombre": "Tecnología para el transporte", "participacion": "participa", "ids": ["tecnalia", "ceit"] },
+        { "nombre": "Baterías, energía y datos", "participacion": "podria", "ids": ["cidetec", "energigune", "ikerlan", "vicomtech", "clusterenergia", "eve"] },
+        { "nombre": "Sostenibilidad y apoyo a la industria", "participacion": "podria", "ids": ["ihobe", "spri"] }
+      ]
+    }
+  ]
+}

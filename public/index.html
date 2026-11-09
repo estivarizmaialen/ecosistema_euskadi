@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Euskadi: quién es quién</title>
+  <meta name="description" content="Gobierno Vasco, Parlamento Vasco y agentes del ecosistema vasco de innovación (cuádruple hélice), con datos de fuentes oficiales.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c8102e'/><circle cx='16' cy='16' r='7' fill='none' stroke='white' stroke-width='3'/><circle cx='16' cy='16' r='2' fill='white'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="brand">
+        <span class="logo" aria-hidden="true"></span>
+        <div>
+          <h1>Euskadi: quién es quién</h1>
+          <p class="sub">Gobierno, Parlamento, Diputaciones y ecosistema · <span id="updated">cargando…</span></p>
+        </div>
+      </div>
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="q" type="search" placeholder="Buscar persona, cargo, entidad…" autocomplete="off">
+      </label>
+      <button id="actualizar" class="btn" type="button" hidden>Actualizar datos</button>
+    </div>
+    <nav class="wrap tabs" role="tablist">
+      <button role="tab" data-tab="gobierno" aria-selected="true">Gobierno Vasco <span class="count" id="c-gobierno"></span></button>
+      <button role="tab" data-tab="parlamento">Parlamento Vasco <span class="count" id="c-parlamento"></span></button>
+      <button role="tab" data-tab="diputaciones">Diputaciones <span class="count" id="c-diputaciones"></span></button>
+      <button role="tab" data-tab="ecosistema">Ecosistema <span class="count" id="c-ecosistema"></span></button>
+      <button role="tab" data-tab="tematicas">Temáticas <span class="count" id="c-tematicas"></span></button>
+      <button role="tab" data-tab="cambios">Cambios</button>
+      <button role="tab" data-tab="glosario">¿Qué hace cada cargo?</button>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div id="alert" class="alert" hidden></div>
+
+    <section id="tab-gobierno" class="tab">
+      <div class="intro">
+        <p>El <strong>Gobierno Vasco</strong> lo preside el <em>Lehendakari</em> y lo forman los consejeros y consejeras que dirigen cada departamento. Por debajo, viceconsejerías y direcciones ejecutan las políticas; los entes públicos (SPRI, EVE, Lanbide…) gestionan servicios concretos.</p>
+      </div>
+      <div class="filters" id="f-gobierno"></div>
+      <div id="list-gobierno"></div>
+    </section>
+
+    <section id="tab-parlamento" class="tab" hidden>
+      <div class="intro">
+        <p>El <strong>Parlamento Vasco</strong> tiene 75 escaños, 25 por cada territorio (Araba, Bizkaia y Gipuzkoa). Aprueba las leyes y los presupuestos, elige al Lehendakari y controla al Gobierno.</p>
+      </div>
+      <div class="hemiciclo-box">
+        <svg id="hemiciclo" viewBox="0 0 400 215" role="img" aria-label="Distribución de escaños"></svg>
+        <div id="leyenda" class="leyenda"></div>
+      </div>
+      <div class="filters" id="f-parlamento"></div>
+      <div id="list-parlamento" class="grid"></div>
+    </section>
+
+    <section id="tab-diputaciones" class="tab" hidden>
+      <div class="intro">
+        <p>Las <strong>Diputaciones Forales</strong> gobiernan cada territorio histórico (Araba, Bizkaia y Gipuzkoa). Recaudan los impuestos gracias al Concierto Económico y gestionan carreteras, servicios sociales, promoción económica, cultura… Las preside el <em>Diputado/a General</em>, elegido por las Juntas Generales, y cada departamento lo dirige un <em>diputado/a foral</em>.</p>
+      </div>
+      <div class="filters" id="f-diputaciones"></div>
+      <div id="list-diputaciones"></div>
+    </section>
+
+    <section id="tab-ecosistema" class="tab" hidden>
+      <div class="intro">
+        <p>La <strong>cuádruple hélice</strong> describe la innovación como colaboración entre cuatro tipos de agentes: administración, conocimiento, empresa y sociedad. Aquí tienes los principales del ecosistema vasco; cuando un cargo del Gobierno dirige uno de ellos, aparece vinculado.</p>
+      </div>
+      <div id="helices" class="helices"></div>
+      <div class="filters" id="f-ecosistema"></div>
+      <div id="list-ecosistema" class="grid grid-eco"></div>
+    </section>
+
+    <section id="tab-tematicas" class="tab" hidden>
+      <div class="intro"><p>Quién trabaja en cada gran tema. <strong>Toma parte</strong> indica que es su competencia o actividad directa; <strong>tomaría parte</strong>, una relación indirecta o potencial. Es una clasificación propia, hecha a partir de las funciones de cada cargo y entidad.</p></div>
+      <div class="filters" id="f-tematicas"></div>
+      <div id="list-tematicas"></div>
+    </section>
+
+    <section id="tab-cambios" class="tab" hidden>
+      <div class="intro"><p>En cada actualización se comparan los datos oficiales con los anteriores. Aquí se registran los nombramientos, ceses, dimisiones y cambios de cargo detectados.</p></div>
+      <div id="list-cambios"></div>
+    </section>
+
+    <section id="tab-glosario" class="tab" hidden>
+      <div id="list-glosario" class="glosario"></div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    Fuentes oficiales: <a href="https://www.legebiltzarra.eus" target="_blank" rel="noopener">Parlamento Vasco</a> ·
+    <a href="https://www.irekia.euskadi.eus/es/politicians" target="_blank" rel="noopener">Irekia – Gobierno Vasco</a> ·
+    <a href="https://www.gipuzkoa.eus/es/diputacion" target="_blank" rel="noopener">gipuzkoa.eus</a> ·
+    <a href="https://www.bizkaia.eus/es/conoce-la-diputacion" target="_blank" rel="noopener">bizkaia.eus</a> ·
+    <a href="https://irekia.araba.eus/departamentos1" target="_blank" rel="noopener">irekia.araba.eus</a> ·
+    webs de cada entidad.
+  </footer>
+
+  <dialog id="modal">
+    <button class="close" aria-label="Cerrar" onclick="this.closest('dialog').close()">×</button>
+    <div id="modal-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

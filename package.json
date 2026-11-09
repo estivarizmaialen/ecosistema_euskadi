@@ -1,0 +1,12 @@
+{
+  "name": "euskadi-quien-es-quien",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gobierno Vasco, Parlamento Vasco y ecosistema vasco de innovación (cuádruple hélice), con datos de fuentes oficiales.",
+  "type": "module",
+  "engines": { "node": ">=22.19" },
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
