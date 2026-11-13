@@ -1,8 +1,7 @@
 {
- "generado": "2026-11-12T04:04:01.937Z",
+ "generado": "2026-11-13T04:02:00.895Z",
  "errores": [
-  "Parlamento: https://www.legebiltzarra.eus/portal/es/parlamentarios-y-organos/parlamentarios: fetch failed",
-  "Diputación Foral de Gipuzkoa: https://www.gipuzkoa.eus/es/diputacion: HTTP 503"
+  "Parlamento: https://www.legebiltzarra.eus/portal/es/parlamentarios-y-organos/parlamentarios: fetch failed"
  ],
  "parlamento": {
   "fuente": "https://www.legebiltzarra.eus/portal/es/parlamentarios-y-organos/parlamentarios",
@@ -7191,7 +7190,7 @@
     "email": null
    }
   ],
-  "actualizado": "2026-11-12T04:02:03.281Z"
+  "actualizado": "2026-11-13T04:00:37.472Z"
  },
  "forales": {
   "territorios": [
@@ -7217,9 +7216,9 @@
       "url": "https://www.gipuzkoa.eus/es/diputacion/cuidados-politicas-sociales"
      },
      {
-      "nombre": "Gobernanza",
-      "descripcion": "Hacer de la buena gobernanza la seña de identidad de la Diputación Foral constituye el principal objetivo del departamento, tanto en su dimensión externa como interna, con las siguientes líneas de acción: potenciar los recursos humanos y técnicos de la Diputación, apostando por el empleo público y el relevo generacional; garantizar una atención y un servicio a la ciudadanía moderno, ágil y eficiente, impulsando la desburocratización, la apertura de datos y el gobierno en red; garantizar una interacción permanente con la ciudadanía y los agentes económicos y sociales de Gipuzkoa en la planificación, desarrollo y evaluación de las políticas públicas, incluyendo nuevos canales de participación ciudadana; y desarrollar una estrategia de internacionalización que contribuya a situar Gipuzkoa en el mapa, además de reforzar la colaboración transfronteriza. Todo ello de forma transversal, ya que la mayor parte de estas políticas impregnan la actuación del resto de los departamentos.",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+      "nombre": "Promoción Económica y Proyectos Estratégicos",
+      "descripcion": "El Departamento de Promoción Económica, Turismo y Medio Rural trata de impulsar dos objetivos principales: el desarrollo de la economía de Gipuzkoa y la gestión y la protección del entorno natural. Para ello ponemos en marcha iniciativas que impulsan la innovación y la promoción económica en todos los sectores, entre ellos el primer sector. Además trabajamos para garantizar la gestión y la conservación de los bosques y entornos naturales. Sin olvidar la labor de impulso al dinamismo y a los servicios en los municipios pequeños del territorio.",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
      },
      {
       "nombre": "Movilidad, Turismo y Ordenación del Territorio",
@@ -7232,19 +7231,19 @@
       "url": "https://www.gipuzkoa.eus/es/diputacion/hacienda-y-finanzas"
      },
      {
-      "nombre": "Equilibrio Territorial Verde",
-      "descripcion": "El Departamento de Promoción Económica, Turismo y Medio Rural trata de impulsar dos objetivos principales: el desarrollo de la economía de Gipuzkoa y la gestión y la protección del entorno natural. Para ello ponemos en marcha iniciativas que impulsan la innovación y la promoción económica en todos los sectores, entre ellos el primer sector. Además trabajamos para garantizar la gestión y la conservación de los bosques y entornos naturales. Sin olvidar la labor de impulso al dinamismo y a los servicios en los municipios pequeños del territorio.",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
-     },
-     {
       "nombre": "Infraestructuras Viarias y Estrategia Territorial",
       "descripcion": "Las funciones y principales ámbitos de actuación del Departamento de Infraestructuras Viarias y Estrategia Territorial son la planificación y construcción de la red de carreteras, así como la conservación y explotación de las infraestructuras viarias, bidegorris incluidos. En lo que respecta a la Estrategia Territorial, el objetivo es incorporar una visión estratégica en la actuación de la Diputación, impulsando proyectos de colaboración que refuercen la cohesión territorial y promuevan un desarrollo equilibrado del territorio a escala local y comarcal. El principal objetivo de esta legislatura es seguir planificando, proyectando y ejecutando infraestructuras viarias y obras públicas que contribuyan a impulsar y mejorar la movilidad, la cohesión y la competitividad del territorio. Asimismo, el departamento trabaja para contribuir a mejorar la calidad de vida de la ciudadanía guipuzcoana, impulsar el desarrollo de los municipios y ciudades del territorio y reforzar la competitividad de nuestra economía.",
       "url": "https://www.gipuzkoa.eus/es/diputacion/infraestructuras-viarias-y-estrategia-territorial"
      },
      {
-      "nombre": "Promoción Económica y Proyectos Estratégicos",
+      "nombre": "Gobernanza",
+      "descripcion": "Hacer de la buena gobernanza la seña de identidad de la Diputación Foral constituye el principal objetivo del departamento, tanto en su dimensión externa como interna, con las siguientes líneas de acción: potenciar los recursos humanos y técnicos de la Diputación, apostando por el empleo público y el relevo generacional; garantizar una atención y un servicio a la ciudadanía moderno, ágil y eficiente, impulsando la desburocratización, la apertura de datos y el gobierno en red; garantizar una interacción permanente con la ciudadanía y los agentes económicos y sociales de Gipuzkoa en la planificación, desarrollo y evaluación de las políticas públicas, incluyendo nuevos canales de participación ciudadana; y desarrollar una estrategia de internacionalización que contribuya a situar Gipuzkoa en el mapa, además de reforzar la colaboración transfronteriza. Todo ello de forma transversal, ya que la mayor parte de estas políticas impregnan la actuación del resto de los departamentos.",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+     },
+     {
+      "nombre": "Equilibrio Territorial Verde",
       "descripcion": "El Departamento de Promoción Económica, Turismo y Medio Rural trata de impulsar dos objetivos principales: el desarrollo de la economía de Gipuzkoa y la gestión y la protección del entorno natural. Para ello ponemos en marcha iniciativas que impulsan la innovación y la promoción económica en todos los sectores, entre ellos el primer sector. Además trabajamos para garantizar la gestión y la conservación de los bosques y entornos naturales. Sin olvidar la labor de impulso al dinamismo y a los servicios en los municipios pequeños del territorio.",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
+      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
      },
      {
       "nombre": "Cultura, Cooperación, Juventud y Deportes",
@@ -7430,70 +7429,48 @@
       "url": "https://www.gipuzkoa.eus/es/diputacion/cuidados-politicas-sociales"
      },
      {
-      "id": "gip-gobernanza",
-      "nombre": "Irune Berasaluze",
-      "cargo": "Diputada de Gobernanza",
+      "id": "gip-promocion-economica-y-proyectos-estrategicos",
+      "nombre": "Unai Andueza",
+      "cargo": "Diputado de Promoción Económica y Proyectos Estratégicos",
       "nivel": "diputado",
-      "departamento": "Gobernanza",
-      "foto": "https://www.gipuzkoa.eus/documents/20933/88170794/DFG_2026_Irune_Berasaluze_silueta.png/6a24e48a-3a8f-645e-2456-9f7002d20a0f?t=1781505032090",
-      "bio": "Soy Irune Berasaluze Lazkano. Nací en 1968, y actualmente vivo en Mendaro; estoy casada y tengo un hijo y una hija. Finalicé los Estudios de Derecho en la Universidad de Deusto en Bilbao, y ejercí como abogada. Siempre me ha atraído la actividad social, porque en mi familia se ha vivido intensamente la política. Tenía muchas tertulias con mi amama, cuando me contaba lo que había vivido en su época joven, tanto en la asociación femenina Emakume Abertzale Batza como en la experiencia de la guerra. Mi amama era una mujer que tenía muy interiorizado el sentimiento nacionalista, y en gran medida gracias a ella he continuado en la vida política. Entiendo la política como una forma de trabajar por el pueblo y la ciudadanía, y así fui primero concejala y después alcaldesa en mi pueblo. Desde entonces, he ocupado diferentes cargos en instituciones políticas y en la Administración Pública.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/Irune_berasaluze_es.pdf/806bf2a4-685a-11f8-10d2-35c563835947?t=1694775573703",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+      "departamento": "Promoción Económica y Proyectos Estratégicos",
+      "foto": "https://www.gipuzkoa.eus/documents/20933/88170794/DFG_2026_Unai_Andueza_silueta.png/7ebf3b99-fd62-a5c0-71b5-23a631a9306d?t=1781505064681",
+      "bio": "Natural de Azkoitia, soy Ingeniero Industrial de formación y cuento con una trayectoria profesional marcada por el conocimiento y la gestión del tejido industrial de Gipuzkoa. Desde el año 2020, formo parte de la Diputación Foral de Gipuzkoa, desempeñando inicialmente el cargo de Director General de Proyectos Estratégicos, posteriormente el de Director General de Promoción Económica y, en la actualidad, el de Diputado de Promoción Económica y Proyectos Estratégicos. Mi experiencia en diversas empresas del sector privado, así como en agencias de desarrollo, me ha permitido adquirir un profundo conocimiento sobre el ecosistema industrial guipuzcoano y sus retos estratégicos. Mi labor se centra en impulsar el crecimiento económico, fomentar la innovación y fortalecer el tejido productivo del territorio, siempre con una visión de futuro y compromiso con el desarrollo sostenible y el bienestar.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2025_03_27_Unai_Andueza_es.pdf/c271e3d2-c725-563c-5a3c-0f62aef8f4c5?t=1743078891474",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
      },
      {
-      "id": "gip-jon-aldazabal",
-      "nombre": "Jon Aldazabal",
-      "cargo": "Director de Régimen Jurídico",
+      "id": "gip-amaia-arregi",
+      "nombre": "Amaia Arregi",
+      "cargo": "Directora de Promoción Económica",
       "nivel": "director",
-      "departamento": "Gobernanza",
+      "departamento": "Promoción Económica y Proyectos Estratégicos",
       "foto": null,
-      "funciones": "Las funciones de esta Dirección son, el control interno de legalidad de las actividades de la Diputación, asesoría jurídica general y defensa en juicio de la Diputación Foral de Gipuzkoa y sus órganos. Además, la Secretaría del Consejo de Gobierno Foral gestiona las relaciones con las Juntas Generales.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/2023_09_19_Jon_Aldazabal_es.pdf/8475a0e0-b509-4ab8-3fb6-f8b2f52533b9?t=1695193912855",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+      "funciones": "Área dedicada a la promoción económica en los diferentes sectores de nuestro territorio y el impulso de la competitividad empresarial, mediante la promoción del conocimiento, el desarrollo y el emprendizaje.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2025_10_07_Amaia_Arregi_es.pdf",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
      },
      {
-      "id": "gip-josu-agirre",
-      "nombre": "Josu Agirre",
-      "cargo": "Director de Función Pública",
+      "id": "gip-jon-gurruchaga",
+      "nombre": "Jon Gurruchaga",
+      "cargo": "Director de Innovación",
       "nivel": "director",
-      "departamento": "Gobernanza",
+      "departamento": "Promoción Económica y Proyectos Estratégicos",
       "foto": null,
-      "funciones": "Es función de esta Dirección garantizar la gestión correcta y eficaz de las personas que prestan su servicio en la Diputación Foral.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/2023_09_20_Josu_Agirre_es.pdf/3b734713-0a6b-2c9e-c0f1-4f88b2d1af94?t=1695194193004",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+      "funciones": "Es objeto de esta Dirección la promoción de la innovación en las empresas de Gipuzkoa, prestando especial atención a las nuevas tecnologías y a la Sociedad de la Información.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2023_09_22_Jon_Gurrutxaga_es.pdf/f79aecc1-20d8-f0b2-a469-1f471998a128?t=1695365944655",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
      },
      {
-      "id": "gip-mikel-pagola",
-      "nombre": "Mikel Pagola",
-      "cargo": "Director de Buen Gobierno e Innovación Político-social",
+      "id": "gip-koldo-pecina",
+      "nombre": "Koldo Peciña",
+      "cargo": "Director de Proyectos Estratégicos",
       "nivel": "director",
-      "departamento": "Gobernanza",
+      "departamento": "Promoción Económica y Proyectos Estratégicos",
       "foto": null,
-      "funciones": "Nuestro compromiso es promover la participación, a fin de que la ciudadanía tenga voz en la definición y en la gestión de las políticas de la Diputación Foral.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/Mikel_Pagola_es.pdf/824bc1ba-3a96-0898-105a-42256f7bbba0?t=1692353553706",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
-     },
-     {
-      "id": "gip-xabier-iridoy",
-      "nombre": "Xabier Iridoy",
-      "cargo": "Director de Innovación en la Administración",
-      "nivel": "director",
-      "departamento": "Gobernanza",
-      "foto": null,
-      "funciones": "Área dedicada a promover en la Diputación Foral la implantación de un modelo de gestión y unas metodologías avanzadas, así como un uso eficaz de las nuevas Tecnologías de la Comunicación.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/Javier_Maria_Iridoy_24_10_21_es.pdf/889c4c14-0626-852f-57f9-fcb8b43920c0?t=1729582502758",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
-     },
-     {
-      "id": "gip-josu-idigoras",
-      "nombre": "Josu Idigoras",
-      "cargo": "Director de Prevención, Extinción de Incendios y Salvamento",
-      "nivel": "director",
-      "departamento": "Gobernanza",
-      "foto": null,
-      "funciones": "Es función del Servicio de Prevención, Extinción de incendios y Salvamentos de la Diputación Foral de Gipuzkoa con sus ocho parques de bomberas/os comarcales atender las intervenciones anuales que se producen en los 83 municipios guipuzcoanos a los que dan cobertura.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/2023_09_19_Josu_Idigoras_es.pdf/711fec1f-f222-ae8d-9cf3-86aae40bb74e?t=1695115360704",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+      "funciones": "El objetivo de esta Dirección es el impulso de las estrategias del territorio, en materias de ciberseguridad, envejecimiento saludable, movilidad inteligente y sostenible, gastronomía digital y creación de contenidos audiovisuales en euskera.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2023_10_06_Koldo_+Peci%C3%B1a_es.pdf/2d419e43-4e46-7b4b-fa49-03d807b68c59?t=1696574252750",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
      },
      {
       "id": "gip-movilidad-turismo-y-ordenacion-del-territorio",
@@ -7595,39 +7572,6 @@
       "url": "https://www.gipuzkoa.eus/es/diputacion/hacienda-y-finanzas"
      },
      {
-      "id": "gip-equilibrio-territorial-verde",
-      "nombre": "Xabier Arruti",
-      "cargo": "Diputado de Equilibrio Territorial Verde",
-      "nivel": "diputado",
-      "departamento": "Equilibrio Territorial Verde",
-      "foto": "https://www.gipuzkoa.eus/documents/20933/88170794/DFG_2026_Xabier_Arruti_silueta.png/56d7ad9e-767b-6383-7a74-54829fadb967?t=1781505072941",
-      "bio": "Nací en Beizama en 1968, y actualmente resido allí. Me licencié en Ciencias Económicas y Empresariales, y posteriormente cursé el Máster en Desarrollo Rural y Gestión de Empresas Agroalimentarias. He trabajado en diferentes instituciones relacionadas con el medio rural y la agricultura, trabajando durante unos años como autónomo en la gestión forestal y combinando las labores del caserío con mi hermano. Mi función es transmitir a los descendientes estos sentimientos y valores que hemos recibido de los padres como el bertsolarismo, el apego al pueblo de Beizama, el caserío y el campo, nuestra cultura, nuestra identidad, el euskera, la patria Euskal Herria. Y, junto a ello, dotar al medio rural y a la agricultura de la dignidad que le corresponde para que sigan ofreciendo a la sociedad guipuzcoana alimentos saludables, un elegante paisaje, combatir el cambio climático, espacios naturales de esparcimiento y biodiversidad.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227443/Xabier_Arruti_es.pdf/0bead9e8-39d7-8fed-4226-7f100a2754f4?t=1694518677686",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
-     },
-     {
-      "id": "gip-joseba-aramburu",
-      "nombre": "Joseba Aramburu",
-      "cargo": "Director de Agricultura y Equilibrio Territorial",
-      "nivel": "director",
-      "departamento": "Equilibrio Territorial Verde",
-      "foto": null,
-      "funciones": "La finalidad de esta Dirección es la coordinación del sector primario y el equilibrio del medio rural, mediante la ordenación y mejora de la agricultura y la ganadería.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227443/Joseba_Aramburu_es.pdf",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
-     },
-     {
-      "id": "gip-arantza-ariztimuno",
-      "nombre": "Arantza Ariztimuño",
-      "cargo": "Directora de Montes y Patrimonio Natural",
-      "nivel": "director",
-      "departamento": "Equilibrio Territorial Verde",
-      "foto": null,
-      "funciones": "Trabajamos en base a la protección, ordenación y mejora de los montes y recursos forestales de nuestro territorio, mediante la conservación de la naturaleza y la promoción de su correcto aprovechamiento.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227443/Arantxa_Ariztimu%C3%B1o_es.pdf/81054bd4-b0e9-f0be-8a70-64ef935fdb8a?t=1692343060228",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
-     },
-     {
       "id": "gip-infraestructuras-viarias-y-estrategia-territorial",
       "nombre": "Felix Urkola",
       "cargo": "Diputado Foral de Infraestructuras Viarias y Estrategia Territorial",
@@ -7661,48 +7605,103 @@
       "url": "https://www.gipuzkoa.eus/es/diputacion/infraestructuras-viarias-y-estrategia-territorial"
      },
      {
-      "id": "gip-promocion-economica-y-proyectos-estrategicos",
-      "nombre": "Unai Andueza",
-      "cargo": "Diputado de Promoción Económica y Proyectos Estratégicos",
+      "id": "gip-gobernanza",
+      "nombre": "Irune Berasaluze",
+      "cargo": "Diputada de Gobernanza",
       "nivel": "diputado",
-      "departamento": "Promoción Económica y Proyectos Estratégicos",
-      "foto": "https://www.gipuzkoa.eus/documents/20933/88170794/DFG_2026_Unai_Andueza_silueta.png/7ebf3b99-fd62-a5c0-71b5-23a631a9306d?t=1781505064681",
-      "bio": "Natural de Azkoitia, soy Ingeniero Industrial de formación y cuento con una trayectoria profesional marcada por el conocimiento y la gestión del tejido industrial de Gipuzkoa. Desde el año 2020, formo parte de la Diputación Foral de Gipuzkoa, desempeñando inicialmente el cargo de Director General de Proyectos Estratégicos, posteriormente el de Director General de Promoción Económica y, en la actualidad, el de Diputado de Promoción Económica y Proyectos Estratégicos. Mi experiencia en diversas empresas del sector privado, así como en agencias de desarrollo, me ha permitido adquirir un profundo conocimiento sobre el ecosistema industrial guipuzcoano y sus retos estratégicos. Mi labor se centra en impulsar el crecimiento económico, fomentar la innovación y fortalecer el tejido productivo del territorio, siempre con una visión de futuro y compromiso con el desarrollo sostenible y el bienestar.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2025_03_27_Unai_Andueza_es.pdf/c271e3d2-c725-563c-5a3c-0f62aef8f4c5?t=1743078891474",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
+      "departamento": "Gobernanza",
+      "foto": "https://www.gipuzkoa.eus/documents/20933/88170794/DFG_2026_Irune_Berasaluze_silueta.png/6a24e48a-3a8f-645e-2456-9f7002d20a0f?t=1781505032090",
+      "bio": "Soy Irune Berasaluze Lazkano. Nací en 1968, y actualmente vivo en Mendaro; estoy casada y tengo un hijo y una hija. Finalicé los Estudios de Derecho en la Universidad de Deusto en Bilbao, y ejercí como abogada. Siempre me ha atraído la actividad social, porque en mi familia se ha vivido intensamente la política. Tenía muchas tertulias con mi amama, cuando me contaba lo que había vivido en su época joven, tanto en la asociación femenina Emakume Abertzale Batza como en la experiencia de la guerra. Mi amama era una mujer que tenía muy interiorizado el sentimiento nacionalista, y en gran medida gracias a ella he continuado en la vida política. Entiendo la política como una forma de trabajar por el pueblo y la ciudadanía, y así fui primero concejala y después alcaldesa en mi pueblo. Desde entonces, he ocupado diferentes cargos en instituciones políticas y en la Administración Pública.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/Irune_berasaluze_es.pdf/806bf2a4-685a-11f8-10d2-35c563835947?t=1694775573703",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
      },
      {
-      "id": "gip-amaia-arregi",
-      "nombre": "Amaia Arregi",
-      "cargo": "Directora de Promoción Económica",
+      "id": "gip-jon-aldazabal",
+      "nombre": "Jon Aldazabal",
+      "cargo": "Director de Régimen Jurídico",
       "nivel": "director",
-      "departamento": "Promoción Económica y Proyectos Estratégicos",
+      "departamento": "Gobernanza",
       "foto": null,
-      "funciones": "Área dedicada a la promoción económica en los diferentes sectores de nuestro territorio y el impulso de la competitividad empresarial, mediante la promoción del conocimiento, el desarrollo y el emprendizaje.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2025_10_07_Amaia_Arregi_es.pdf",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
+      "funciones": "Las funciones de esta Dirección son, el control interno de legalidad de las actividades de la Diputación, asesoría jurídica general y defensa en juicio de la Diputación Foral de Gipuzkoa y sus órganos. Además, la Secretaría del Consejo de Gobierno Foral gestiona las relaciones con las Juntas Generales.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/2023_09_19_Jon_Aldazabal_es.pdf/8475a0e0-b509-4ab8-3fb6-f8b2f52533b9?t=1695193912855",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
      },
      {
-      "id": "gip-jon-gurruchaga",
-      "nombre": "Jon Gurruchaga",
-      "cargo": "Director de Innovación",
+      "id": "gip-josu-agirre",
+      "nombre": "Josu Agirre",
+      "cargo": "Director de Función Pública",
       "nivel": "director",
-      "departamento": "Promoción Económica y Proyectos Estratégicos",
+      "departamento": "Gobernanza",
       "foto": null,
-      "funciones": "Es objeto de esta Dirección la promoción de la innovación en las empresas de Gipuzkoa, prestando especial atención a las nuevas tecnologías y a la Sociedad de la Información.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2023_09_22_Jon_Gurrutxaga_es.pdf/f79aecc1-20d8-f0b2-a469-1f471998a128?t=1695365944655",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
+      "funciones": "Es función de esta Dirección garantizar la gestión correcta y eficaz de las personas que prestan su servicio en la Diputación Foral.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/2023_09_20_Josu_Agirre_es.pdf/3b734713-0a6b-2c9e-c0f1-4f88b2d1af94?t=1695194193004",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
      },
      {
-      "id": "gip-koldo-pecina",
-      "nombre": "Koldo Peciña",
-      "cargo": "Director de Proyectos Estratégicos",
+      "id": "gip-mikel-pagola",
+      "nombre": "Mikel Pagola",
+      "cargo": "Director de Buen Gobierno e Innovación Político-social",
       "nivel": "director",
-      "departamento": "Promoción Económica y Proyectos Estratégicos",
+      "departamento": "Gobernanza",
       "foto": null,
-      "funciones": "El objetivo de esta Dirección es el impulso de las estrategias del territorio, en materias de ciberseguridad, envejecimiento saludable, movilidad inteligente y sostenible, gastronomía digital y creación de contenidos audiovisuales en euskera.",
-      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227394/2023_10_06_Koldo_+Peci%C3%B1a_es.pdf/2d419e43-4e46-7b4b-fa49-03d807b68c59?t=1696574252750",
-      "url": "https://www.gipuzkoa.eus/es/diputacion/promocion-economica-y-proyectos-estrategicos"
+      "funciones": "Nuestro compromiso es promover la participación, a fin de que la ciudadanía tenga voz en la definición y en la gestión de las políticas de la Diputación Foral.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/Mikel_Pagola_es.pdf/824bc1ba-3a96-0898-105a-42256f7bbba0?t=1692353553706",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+     },
+     {
+      "id": "gip-xabier-iridoy",
+      "nombre": "Xabier Iridoy",
+      "cargo": "Director de Innovación en la Administración",
+      "nivel": "director",
+      "departamento": "Gobernanza",
+      "foto": null,
+      "funciones": "Área dedicada a promover en la Diputación Foral la implantación de un modelo de gestión y unas metodologías avanzadas, así como un uso eficaz de las nuevas Tecnologías de la Comunicación.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/Javier_Maria_Iridoy_24_10_21_es.pdf/889c4c14-0626-852f-57f9-fcb8b43920c0?t=1729582502758",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+     },
+     {
+      "id": "gip-josu-idigoras",
+      "nombre": "Josu Idigoras",
+      "cargo": "Director de Prevención, Extinción de Incendios y Salvamento",
+      "nivel": "director",
+      "departamento": "Gobernanza",
+      "foto": null,
+      "funciones": "Es función del Servicio de Prevención, Extinción de incendios y Salvamentos de la Diputación Foral de Gipuzkoa con sus ocho parques de bomberas/os comarcales atender las intervenciones anuales que se producen en los 83 municipios guipuzcoanos a los que dan cobertura.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227593/2023_09_19_Josu_Idigoras_es.pdf/711fec1f-f222-ae8d-9cf3-86aae40bb74e?t=1695115360704",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/gobernanza"
+     },
+     {
+      "id": "gip-equilibrio-territorial-verde",
+      "nombre": "Xabier Arruti",
+      "cargo": "Diputado de Equilibrio Territorial Verde",
+      "nivel": "diputado",
+      "departamento": "Equilibrio Territorial Verde",
+      "foto": "https://www.gipuzkoa.eus/documents/20933/88170794/DFG_2026_Xabier_Arruti_silueta.png/56d7ad9e-767b-6383-7a74-54829fadb967?t=1781505072941",
+      "bio": "Nací en Beizama en 1968, y actualmente resido allí. Me licencié en Ciencias Económicas y Empresariales, y posteriormente cursé el Máster en Desarrollo Rural y Gestión de Empresas Agroalimentarias. He trabajado en diferentes instituciones relacionadas con el medio rural y la agricultura, trabajando durante unos años como autónomo en la gestión forestal y combinando las labores del caserío con mi hermano. Mi función es transmitir a los descendientes estos sentimientos y valores que hemos recibido de los padres como el bertsolarismo, el apego al pueblo de Beizama, el caserío y el campo, nuestra cultura, nuestra identidad, el euskera, la patria Euskal Herria. Y, junto a ello, dotar al medio rural y a la agricultura de la dignidad que le corresponde para que sigan ofreciendo a la sociedad guipuzcoana alimentos saludables, un elegante paisaje, combatir el cambio climático, espacios naturales de esparcimiento y biodiversidad.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227443/Xabier_Arruti_es.pdf/0bead9e8-39d7-8fed-4226-7f100a2754f4?t=1694518677686",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
+     },
+     {
+      "id": "gip-joseba-aramburu",
+      "nombre": "Joseba Aramburu",
+      "cargo": "Director de Agricultura y Equilibrio Territorial",
+      "nivel": "director",
+      "departamento": "Equilibrio Territorial Verde",
+      "foto": null,
+      "funciones": "La finalidad de esta Dirección es la coordinación del sector primario y el equilibrio del medio rural, mediante la ordenación y mejora de la agricultura y la ganadería.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227443/Joseba_Aramburu_es.pdf",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
+     },
+     {
+      "id": "gip-arantza-ariztimuno",
+      "nombre": "Arantza Ariztimuño",
+      "cargo": "Directora de Montes y Patrimonio Natural",
+      "nivel": "director",
+      "departamento": "Equilibrio Territorial Verde",
+      "foto": null,
+      "funciones": "Trabajamos en base a la protección, ordenación y mejora de los montes y recursos forestales de nuestro territorio, mediante la conservación de la naturaleza y la promoción de su correcto aprovechamiento.",
+      "cv": "https://www.gipuzkoairekia.eus/documents/85515/2227443/Arantxa_Ariztimu%C3%B1o_es.pdf/81054bd4-b0e9-f0be-8a70-64ef935fdb8a?t=1692343060228",
+      "url": "https://www.gipuzkoa.eus/es/diputacion/equilibrio-territorial-verde"
      },
      {
       "id": "gip-cultura-cooperacion-juventud-y-deportes",
@@ -7760,7 +7759,7 @@
       "url": "https://www.gipuzkoa.eus/es/diputacion/cultura-cooperacion-juventud-y-deportes"
      }
     ],
-    "actualizado": "2026-11-11T04:03:00.002Z"
+    "actualizado": "2026-11-13T04:00:46.579Z"
    },
    {
     "id": "bizkaia",
@@ -8064,7 +8063,7 @@
       "fuenteSecundaria": true
      }
     ],
-    "actualizado": "2026-11-12T04:02:47.159Z"
+    "actualizado": "2026-11-13T04:00:53.243Z"
    },
    {
     "id": "araba",
@@ -8088,19 +8087,24 @@
       "url": "https://irekia.araba.eus/es/-/desarrollo-economico-sostenibilidad"
      },
      {
-      "nombre": "Hacienda, Finanzas y Presupuestos",
-      "descripcion": "Funciones: administración tributaria; concierto económico; finanzas; intervención y control; presupuestos; contabilidad; patrimonio; estadísticas y estudios; asuntos europeos; reclamaciones económico-administrativas.",
-      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
-     },
-     {
       "nombre": "Igualdad, Euskera y Gobernanza",
       "descripcion": "Funciones: Decreto Foral 78/2024, del Diputado General, de 28 de junio. Modificar el Decreto Foral 152/2023, del Diputado General, de 30 de junio, por el que se determinan los departamentos de la diputación foral de Álava para la legislatura 2023-2027; Decreto Foral 41/2023, del Consejo de Gobierno Foral de 26 de septiembre. Aprobar la creación de la Dirección de Gobernanza; Decreto Foral 22/2021, del Consejo de Gobierno Foral de 1 de junio. Aprobar la estructura orgánica y funcional del Departamento de Diputado General.",
       "url": "https://irekia.araba.eus/es/-/igualdad-euskera-gobernanza"
      },
      {
+      "nombre": "Hacienda, Finanzas y Presupuestos",
+      "descripcion": "Funciones: administración tributaria; concierto económico; finanzas; intervención y control; presupuestos; contabilidad; patrimonio; estadísticas y estudios; asuntos europeos; reclamaciones económico-administrativas.",
+      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
+     },
+     {
       "nombre": "Políticas Sociales",
       "descripcion": "Funciones: Decreto Foral 4/2021, del Consejo de Gobierno Foral de 9 de febrero. Modificar el Decreto Foral 13/2016, del Consejo de Gobierno de 9 de febrero, que aprueba la estructura orgánica y funcional del Departamento de Servicios Sociales, actual Departamento de Políticas Sociales; Decreto Foral 44/2017, del Consejo de Gobierno Foral de 3 de agosto, que modifica el Decreto Foral 13/2016, de 9 de febrero, sobre Estructura Orgánica y Funcional del Departamento de Servicios Sociales; Decreto Foral 13/2016, del Consejo de Gobierno Foral de 9 de febrero, que aprueba la estructura orgánica y funcional del Departamento de Servicios Sociales.",
       "url": "https://irekia.araba.eus/es/-/politicas-sociales"
+     },
+     {
+      "nombre": "Agricultura",
+      "descripcion": "Funciones: agricultura; ganadería; desarrollo agrario y experimentación; desarrollo rural y ayudas europeas; viticultura y enología; montes, aprovechamientos y servicios forestales; gestión de recursos piscícolas y cinegéticos; infraestructuras hidráulicas agrarias; prevención de incendios forestales y apoyo a su extinción.",
+      "url": "https://irekia.araba.eus/es/-/agricultura"
      },
      {
       "nombre": "Empleo, Comercio, Turismo y Administración Foral",
@@ -8111,11 +8115,6 @@
       "nombre": "Equilibrio Territorial y Ordenación del Territorio",
       "descripcion": "Funciones: Decreto Foral 1/2024, de 30 de enero, del Consejo de Gobierno Foral. Aprobación de la estructura orgánica y funcional del Departamento de Equilibrio Territorial y Ordenación del Territorio; Decreto Foral 42/2023, del Consejo de Gobierno Foral de 26 de septiembre. Aprobar la creación de la Dirección de Ordenación del Territorio .",
       "url": "https://irekia.araba.eus/es/-/equilibrio-territorial-ordenacion-territorio"
-     },
-     {
-      "nombre": "Agricultura",
-      "descripcion": "Funciones: agricultura; ganadería; desarrollo agrario y experimentación; desarrollo rural y ayudas europeas; viticultura y enología; montes, aprovechamientos y servicios forestales; gestión de recursos piscícolas y cinegéticos; infraestructuras hidráulicas agrarias; prevención de incendios forestales y apoyo a su extinción.",
-      "url": "https://irekia.araba.eus/es/-/agricultura"
      },
      {
       "nombre": "Cultura y Deporte",
@@ -8224,39 +8223,6 @@
       "url": "https://irekia.araba.eus/es/-/desarrollo-economico-sostenibilidad"
      },
      {
-      "id": "ara-itziar-gonzalo-de-zuazo",
-      "nombre": "Itziar Gonzalo de Zuazo",
-      "cargo": "Segunda teniente de diputado general y Diputada Foral de Hacienda, Finanzas y Presupuestos",
-      "nivel": "diputado",
-      "departamento": "Hacienda, Finanzas y Presupuestos",
-      "foto": "https://irekia.araba.eus/documents/2908004/12844950/ItziarGonzalo_Legislatura23-27.jpg/a8007dcb-6702-0f42-d548-72681df24d86?t=1688468059273",
-      "bio": "Vitoria-Gasteiz, 1967 · Licenciada en Derecho por la Universidad de Deusto",
-      "partido": "EAJ-PNV",
-      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
-     },
-     {
-      "id": "ara-maria-jose-perea-urteaga",
-      "nombre": "María José Perea Urteaga",
-      "cargo": "Directora de Hacienda",
-      "nivel": "director",
-      "departamento": "Hacienda, Finanzas y Presupuestos",
-      "foto": null,
-      "desde": "2020-01-02",
-      "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+M.J.+Perea+Urteaga+2023.docx/85ea2b69-c3e2-3c69-a6b3-db4da41732c2?t=1698660301017",
-      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
-     },
-     {
-      "id": "ara-inaki-arrizabalaga-ormaechea",
-      "nombre": "Iñaki Arrizabalaga Ormaechea",
-      "cargo": "Director de Finanzas y Presupuestos",
-      "nivel": "director",
-      "departamento": "Hacienda, Finanzas y Presupuestos",
-      "foto": null,
-      "desde": "2023-10-28",
-      "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+I%C3%B1aki+Arrizabalaga+Ormaechea+2023.docx/a7f169ea-d9a8-bad5-8efe-022673eb6e27?t=1698996131927",
-      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
-     },
-     {
       "id": "ara-inaki-gurtubai-artetxe",
       "nombre": "Iñaki Gurtubai Artetxe",
       "cargo": "Diputado foral de Igualdad, Euskera y Gobernanza",
@@ -8301,6 +8267,39 @@
       "url": "https://irekia.araba.eus/es/-/igualdad-euskera-gobernanza"
      },
      {
+      "id": "ara-itziar-gonzalo-de-zuazo",
+      "nombre": "Itziar Gonzalo de Zuazo",
+      "cargo": "Segunda teniente de diputado general y Diputada Foral de Hacienda, Finanzas y Presupuestos",
+      "nivel": "diputado",
+      "departamento": "Hacienda, Finanzas y Presupuestos",
+      "foto": "https://irekia.araba.eus/documents/2908004/12844950/ItziarGonzalo_Legislatura23-27.jpg/a8007dcb-6702-0f42-d548-72681df24d86?t=1688468059273",
+      "bio": "Vitoria-Gasteiz, 1967 · Licenciada en Derecho por la Universidad de Deusto",
+      "partido": "EAJ-PNV",
+      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
+     },
+     {
+      "id": "ara-maria-jose-perea-urteaga",
+      "nombre": "María José Perea Urteaga",
+      "cargo": "Directora de Hacienda",
+      "nivel": "director",
+      "departamento": "Hacienda, Finanzas y Presupuestos",
+      "foto": null,
+      "desde": "2020-01-02",
+      "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+M.J.+Perea+Urteaga+2023.docx/85ea2b69-c3e2-3c69-a6b3-db4da41732c2?t=1698660301017",
+      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
+     },
+     {
+      "id": "ara-inaki-arrizabalaga-ormaechea",
+      "nombre": "Iñaki Arrizabalaga Ormaechea",
+      "cargo": "Director de Finanzas y Presupuestos",
+      "nivel": "director",
+      "departamento": "Hacienda, Finanzas y Presupuestos",
+      "foto": null,
+      "desde": "2023-10-28",
+      "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+I%C3%B1aki+Arrizabalaga+Ormaechea+2023.docx/a7f169ea-d9a8-bad5-8efe-022673eb6e27?t=1698996131927",
+      "url": "https://irekia.araba.eus/es/-/hacienda-finanzas-presupuestos"
+     },
+     {
       "id": "ara-gorka-urtaran-agirre",
       "nombre": "Gorka Urtaran Agirre",
       "cargo": "Diputado Foral de Políticas Sociales",
@@ -8332,6 +8331,28 @@
       "desde": "2025-02-25",
       "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+Nuria+Pascual+Mart%C3%ADnez+2025.docx/22941943-a163-470e-446b-14c69d50c503?t=1741087607910",
       "url": "https://irekia.araba.eus/es/-/politicas-sociales"
+     },
+     {
+      "id": "ara-noemi-aguirre-quintana",
+      "nombre": "Noemí Aguirre Quintana",
+      "cargo": "Diputada foral de Agricultura",
+      "nivel": "diputado",
+      "departamento": "Agricultura",
+      "foto": "https://irekia.araba.eus/documents/2908004/12844950/Noemi+Aguirre.jpg/38470440-43ee-bf39-3c5f-9f7297f58e70?t=1719830145367",
+      "bio": "Alegría-Dulantzi, 1976",
+      "partido": "EAJ-PNV",
+      "url": "https://irekia.araba.eus/es/-/agricultura"
+     },
+     {
+      "id": "ara-david-fernandez-sarabia",
+      "nombre": "David Fernández Sarabia",
+      "cargo": "Director de Agricultura",
+      "nivel": "director",
+      "departamento": "Agricultura",
+      "foto": null,
+      "desde": "2023-08-02",
+      "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+David+Fern%C3%A1ndez+2023.docx/a7406f24-4046-de73-e080-11ef7bd51c0a?t=1698310691473",
+      "url": "https://irekia.araba.eus/es/-/agricultura"
      },
      {
       "id": "ara-maria-del-mar-daban-aguayo",
@@ -8411,28 +8432,6 @@
       "url": "https://irekia.araba.eus/es/-/equilibrio-territorial-ordenacion-territorio"
      },
      {
-      "id": "ara-noemi-aguirre-quintana",
-      "nombre": "Noemí Aguirre Quintana",
-      "cargo": "Diputada foral de Agricultura",
-      "nivel": "diputado",
-      "departamento": "Agricultura",
-      "foto": "https://irekia.araba.eus/documents/2908004/12844950/Noemi+Aguirre.jpg/38470440-43ee-bf39-3c5f-9f7297f58e70?t=1719830145367",
-      "bio": "Alegría-Dulantzi, 1976",
-      "partido": "EAJ-PNV",
-      "url": "https://irekia.araba.eus/es/-/agricultura"
-     },
-     {
-      "id": "ara-david-fernandez-sarabia",
-      "nombre": "David Fernández Sarabia",
-      "cargo": "Director de Agricultura",
-      "nivel": "director",
-      "departamento": "Agricultura",
-      "foto": null,
-      "desde": "2023-08-02",
-      "cv": "https://irekia.araba.eus/documents/2908004/12936206/CV+David+Fern%C3%A1ndez+2023.docx/a7406f24-4046-de73-e080-11ef7bd51c0a?t=1698310691473",
-      "url": "https://irekia.araba.eus/es/-/agricultura"
-     },
-     {
       "id": "ara-ana-del-val-sancho",
       "nombre": "Ana del Val Sancho",
       "cargo": "Diputada Foral de Cultura y Deporte",
@@ -8466,7 +8465,7 @@
       "url": "https://irekia.araba.eus/es/-/cultura-deporte"
      }
     ],
-    "actualizado": "2026-11-12T04:02:53.333Z"
+    "actualizado": "2026-11-13T04:01:00.788Z"
    }
   ]
  },
@@ -8502,12 +8501,16 @@
      "SPRI"
     ],
     "descripcion": "Agencia del Departamento de Industria del Gobierno Vasco. Gestiona ayudas a la innovación, internacionalización, digitalización y emprendimiento de las empresas vascas, y coordina la red de BICs y parques tecnológicos.",
-    "online": false,
+    "online": true,
+    "titulo": "SPRI Taldea – Enpresen Garapenerako Euskal Agentzia",
+    "descripcionWeb": "Baduzu enpresa bat, ETE bat edo startup bat? Laguntzak, baliabideak eta aktualitatea eskaintzen dizkizugu: digitalizazioa, nazioartekotzea, zibersegurtasuna, ekintzailetza…",
+    "imagen": "https://www.spri.eus/archivos/2017/06/jpg/gud4nnez_400x400-300x300.jpg",
+    "icono": "https://www.spri.eus/archivos/2025/02/jpg/cropped-cropped-icono-spri-300x300.jpg",
     "responsables": [
      "gv-787",
      "gv-777"
     ],
-    "comprobado": "2026-11-12T04:02:55.728Z"
+    "comprobado": "2026-11-13T04:01:06.523Z"
    },
    {
     "id": "innobasque",
@@ -8527,7 +8530,7 @@
     "imagen": null,
     "icono": "https://www.innobasque.eus/wp-content/uploads/2025/12/cropped-favicon-innobasque.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:02:55.033Z"
+    "comprobado": "2026-11-13T04:01:02.699Z"
    },
    {
     "id": "brta",
@@ -8550,7 +8553,7 @@
     "responsables": [
      "gv-567"
     ],
-    "comprobado": "2026-11-12T04:02:54.606Z"
+    "comprobado": "2026-11-13T04:01:02.087Z"
    },
    {
     "id": "ikerbasque",
@@ -8570,7 +8573,7 @@
     "imagen": null,
     "icono": "https://www.ikerbasque.net/sites/all/themes/acc_foundation/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:02:54.124Z"
+    "comprobado": "2026-11-13T04:01:01.418Z"
    },
    {
     "id": "eve",
@@ -8587,13 +8590,13 @@
     "descripcion": "Agencia energética del Gobierno Vasco: impulsa la transición energética, las renovables y la eficiencia energética.",
     "online": true,
     "titulo": "EVE – Energiaren Euskal Erakundea – Ente Vasco de la Energía",
-    "descripcionWeb": "@media screen and (min-width:0px){ #slider-1794456175-bdfcae { height : 100vh ;} }#slider-29456 *:not(.cb-slider__link-btn) { color : rgba(255,255,255,1);} #slider-29456 .cb-slider__bg > [id^=",
+    "descripcionWeb": "@media screen and (min-width:0px){ #slider-1794542463-bcefda { height : 100vh ;} }#slider-29456 *:not(.cb-slider__link-btn) { color : rgba(255,255,255,1);} #slider-29456 .cb-slider__bg > [id^=",
     "imagen": "https://www.eve.eus/assets/themes/core-base-child/assets/images/opengraph_image.jpg",
     "icono": "https://www.eve.eus/assets/themes/core-base-child/assets/images/apple-touch-icon.png",
     "responsables": [
      "gv-564"
     ],
-    "comprobado": "2026-11-12T04:02:56.207Z"
+    "comprobado": "2026-11-13T04:01:05.044Z"
    },
    {
     "id": "ihobe",
@@ -8615,7 +8618,7 @@
     "responsables": [
      "gv-502"
     ],
-    "comprobado": "2026-11-12T04:02:54.745Z"
+    "comprobado": "2026-11-13T04:01:03.231Z"
    },
    {
     "id": "basquetrade",
@@ -8629,9 +8632,13 @@
      "Basque Trade"
     ],
     "descripcion": "Agencia vasca de internacionalización: ayuda a las empresas a salir al exterior y atrae inversión extranjera a Euskadi.",
-    "online": false,
+    "online": true,
+    "titulo": "Inicio - Basque Trade & Investment",
+    "descripcionWeb": "Nuestros servicios Te acompañamos en tu proceso de internacionalización, proporcionándote servicios individualizados, programas de ayuda financiera o potenciando tus capacidades, para expandir tu negocio en el extranjero. Mercados Análisis y perspectivas Conoce los últimos informes, notas técnicas y observatorios publicados por Basque Trade & Investment. Agenda Sobre nosotros Basque Trade es la ventanilla única para ... Leer más",
+    "imagen": "https://basquetrade.spri.eus//wp-content/uploads/2025/01/banner-home-servicios-min.jpg",
+    "icono": "https://basquetrade.spri.eus//wp-content/uploads/2024/05/cropped-favicon-270x270-1.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:25.776Z"
+    "comprobado": "2026-11-13T04:01:03.255Z"
    },
    {
     "id": "bcsc",
@@ -8653,7 +8660,7 @@
     "responsables": [
      "gv-671"
     ],
-    "comprobado": "2026-11-12T04:02:56.518Z"
+    "comprobado": "2026-11-13T04:01:04.030Z"
    },
    {
     "id": "lanbide",
@@ -8680,7 +8687,7 @@
      "gv-620",
      "gv-785"
     ],
-    "comprobado": "2026-11-12T04:02:56.414Z"
+    "comprobado": "2026-11-13T04:01:04.236Z"
    },
    {
     "id": "bioef",
@@ -8700,7 +8707,7 @@
     "imagen": "https://www.bioef.eus/wp-content/uploads/2023/09/BIOEF_180x180.png",
     "icono": "https://www.bioef.eus/wp-content/themes/etg-bioef/img/favicon/apple-icon-57x57.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:00.911Z"
+    "comprobado": "2026-11-13T04:01:12.314Z"
    },
    {
     "id": "pte",
@@ -8722,7 +8729,7 @@
     "responsables": [
      "gv-199"
     ],
-    "comprobado": "2026-11-12T04:02:56.692Z"
+    "comprobado": "2026-11-13T04:01:03.978Z"
    },
    {
     "id": "adinberri",
@@ -8736,9 +8743,13 @@
      "Adinberri"
     ],
     "descripcion": "Iniciativa de la Diputación Foral de Gipuzkoa para convertir el envejecimiento en oportunidad: impulsa la economía de la longevidad (silver economy), proyectos piloto e innovación en cuidados.",
-    "online": false,
+    "online": true,
+    "titulo": "Hasiera",
+    "descripcionWeb": null,
+    "imagen": "https://www.adinberri.eus/documents/98427/2138366/og_image.png/caef211e-214b-a65a-0107-7b8c4fafb486",
+    "icono": "https://www.adinberri.eus/o/dleentitateak-theme/images/favicon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:09.738Z"
+    "comprobado": "2026-11-13T04:01:06.759Z"
    },
    {
     "id": "beaz",
@@ -8758,7 +8769,7 @@
     "imagen": null,
     "icono": "https://beaz.bizkaia.eus/wp-content/uploads/2023/10/cropped-android-chrome-512x512-1-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:02:57.320Z"
+    "comprobado": "2026-11-13T04:01:04.790Z"
    },
    {
     "id": "bizkaiatalent",
@@ -8774,7 +8785,7 @@
     "descripcion": "Atrae, retiene y conecta personas altamente cualificadas con empresas y centros de Euskadi.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:02:58.479Z"
+    "comprobado": "2026-11-13T04:01:06.060Z"
    },
    {
     "id": "dfg",
@@ -8786,9 +8797,13 @@
     "web": "https://www.gipuzkoa.eus",
     "claves": [],
     "descripcion": "Gobierno del territorio histórico de Gipuzkoa: fiscalidad foral, políticas sociales, carreteras, promoción económica e innovación territorial.",
-    "online": false,
+    "online": true,
+    "titulo": "Gipuzkoako Foru Aldundia - gipuzkoa",
+    "descripcionWeb": "Gipuzkoako Foru Aldundiaren webgunea gipuzkoar guztioi zuzendua. Albisteak, tramiteak, laguntzak... Gipuzkoa zure eskura",
+    "imagen": "https://www.gipuzkoa.eus/documents/20933/2104259/og_image.png/4479ed33-ed27-4b2d-9401-1ac302eced42",
+    "icono": "https://www.gipuzkoa.eus/o/DGN-gipuzkoa2021-theme/images/favicon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:19.962Z"
+    "comprobado": "2026-11-13T04:01:07.132Z"
    },
    {
     "id": "dfb",
@@ -8806,7 +8821,7 @@
     "imagen": null,
     "icono": "https://www.bizkaia.eus/o/IYBITBIC/images/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:02:59.328Z"
+    "comprobado": "2026-11-13T04:01:07.063Z"
    },
    {
     "id": "dfa",
@@ -8824,7 +8839,7 @@
     "imagen": null,
     "icono": "https://web.araba.eus/documents/1247685/1249564/favicon.ico/b73fc156-f981-e28d-3e5a-f0ad7ff81cfd",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:00.249Z"
+    "comprobado": "2026-11-13T04:01:08.488Z"
    },
    {
     "id": "durangaldea",
@@ -8838,7 +8853,7 @@
     "descripcion": "Agencia de desarrollo de la Mancomunidad de Durangaldea. Atiende a personas desempleadas, promueve nuevas empresas e impulsa el tejido empresarial de Abadiño, Atxondo, Berriz, Durango, Elorrio, Garai, Iurreta, Izurtza, Mañaria y Zaldibar.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:21.810Z"
+    "comprobado": "2026-11-13T04:01:28.766Z"
    },
    {
     "id": "egaz",
@@ -8856,7 +8871,7 @@
     "imagen": null,
     "icono": "https://egaz.eus/wp-content/uploads/2021/12/cropped-logo-egaz-color-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:01.581Z"
+    "comprobado": "2026-11-13T04:01:07.999Z"
    },
    {
     "id": "enkarterri",
@@ -8874,7 +8889,7 @@
     "imagen": "http://www.behargintza-enkarterri.net/wp-content/uploads/2018/02/logo-behargintza-enkartur.jpg",
     "icono": null,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:02.002Z"
+    "comprobado": "2026-11-13T04:01:08.035Z"
    },
    {
     "id": "meatzaldea",
@@ -8892,7 +8907,7 @@
     "imagen": null,
     "icono": "https://behargintza-zm.com/wp-content/uploads/2022/04/cropped-mbfavicon-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:04.681Z"
+    "comprobado": "2026-11-13T04:01:10.200Z"
    },
    {
     "id": "mungialde",
@@ -8910,7 +8925,7 @@
     "imagen": null,
     "icono": "https://www.mungialdeko-behargintza.com/documents/224217/61db4930-b7ee-e10a-e271-6c6b13d25a7e",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:03.615Z"
+    "comprobado": "2026-11-13T04:01:09.725Z"
    },
    {
     "id": "leartibai",
@@ -8928,7 +8943,7 @@
     "imagen": null,
     "icono": "https://leartibaifundazioa.eus/wp-content/uploads/2022/02/cropped-leartibai_favicon-1-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:05.424Z"
+    "comprobado": "2026-11-13T04:01:09.806Z"
    },
    {
     "id": "urkobe",
@@ -8942,7 +8957,7 @@
     "descripcion": "Promueve el empleo, el emprendimiento y la economía local en Barrika, Berango, Gorliz, Lemoiz, Plentzia, Sopela y Urduliz. Gestiona una incubadora de empresas en Urduliz.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:07.980Z"
+    "comprobado": "2026-11-13T04:01:11.664Z"
    },
    {
     "id": "behargintzabasauri",
@@ -8960,7 +8975,7 @@
     "imagen": "https://behargintza.eus/wp-content/uploads/2020/07/boton-castellano.jpg",
     "icono": "https://behargintza.eus/wp-content/themes/behargintza/assets/images/favicon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:06.714Z"
+    "comprobado": "2026-11-13T04:01:11.020Z"
    },
    {
     "id": "beterri",
@@ -8978,7 +8993,7 @@
     "imagen": null,
     "icono": null,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:08.473Z"
+    "comprobado": "2026-11-13T04:01:11.622Z"
    },
    {
     "id": "bidasoa",
@@ -8996,7 +9011,7 @@
     "imagen": "https://www.bidasoa-activa.com/wp-content/uploads/2025/05/Bida_Thumbnail.jpg",
     "icono": "https://www.bidasoa-activa.com/wp-content/uploads/2020/02/favicon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:22.147Z"
+    "comprobado": "2026-11-13T04:01:22.168Z"
    },
    {
     "id": "debagoiena",
@@ -9014,7 +9029,7 @@
     "imagen": null,
     "icono": "https://www.debagoiena.eus/sites/default/files/favicon32_0.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:09.579Z"
+    "comprobado": "2026-11-13T04:01:12.009Z"
    },
    {
     "id": "debegesa",
@@ -9032,7 +9047,7 @@
     "imagen": null,
     "icono": "https://www.debegesa.eus/wp-content/uploads/2023/04/cropped-Diseno-sin-titulo-5-1-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:10.963Z"
+    "comprobado": "2026-11-13T04:01:14.697Z"
    },
    {
     "id": "goieki",
@@ -9050,7 +9065,7 @@
     "imagen": "https://www.goierri.eus/images/webgunea/00-hasiera/goieki-edifizioa.jpg",
     "icono": "https://www.goierri.eus/images/webgunea/favicon.png#2",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:11.163Z"
+    "comprobado": "2026-11-13T04:01:13.037Z"
    },
    {
     "id": "iraurgi",
@@ -9068,7 +9083,7 @@
     "imagen": null,
     "icono": "https://iraurgiberritzen.eus/wp-content/uploads/2024/01/cropped-IRAURGI-BERRITZEN-ikonoa-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:12.543Z"
+    "comprobado": "2026-11-13T04:01:15.920Z"
    },
    {
     "id": "oarsoaldea",
@@ -9086,7 +9101,7 @@
     "imagen": null,
     "icono": "https://www.oarsoaldea.eus/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:12.300Z"
+    "comprobado": "2026-11-13T04:01:14.591Z"
    },
    {
     "id": "tolosaldea",
@@ -9104,7 +9119,7 @@
     "imagen": null,
     "icono": "https://www.tolosaldeagaratzen.eus/wp-content/themes/tolosaldeagaratzen/images/fav/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:15.388Z"
+    "comprobado": "2026-11-13T04:01:16.947Z"
    },
    {
     "id": "uggasa",
@@ -9122,7 +9137,7 @@
     "imagen": null,
     "icono": "https://uggasa.eus/wp-content/uploads/2019/10/favicon_uggasa-1.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:18.442Z"
+    "comprobado": "2026-11-13T04:01:21.353Z"
    },
    {
     "id": "urolakosta",
@@ -9136,7 +9151,7 @@
     "descripcion": "Agencia de la Mancomunidad de Urola Kosta, que agrupa a municipios de la costa guipuzcoana como Zarautz, Zumaia, Orio, Getaria y Aia. Impulsa el empleo, la empresa y el turismo de la comarca.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:18.376Z"
+    "comprobado": "2026-11-13T04:01:17.864Z"
    },
    {
     "id": "anana",
@@ -9154,7 +9169,7 @@
     "imagen": null,
     "icono": "https://www.cuadrilladeanana.eus/wp-content/uploads/2020/12/Logoflotante.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:20.849Z"
+    "comprobado": "2026-11-13T04:01:17.357Z"
    },
    {
     "id": "ehu",
@@ -9172,7 +9187,7 @@
     "imagen": null,
     "icono": "https://www.ehu.eus/o/upv-theme-favicon/favicon.9d3ee45a513720fc21ff9243d43a004e3625af5d.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:21.235Z"
+    "comprobado": "2026-11-13T04:01:19.467Z"
    },
    {
     "id": "mu",
@@ -9190,7 +9205,7 @@
     "imagen": null,
     "icono": "https://www.mondragon.edu/documents/20182/20814/favicon-180.ico/",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:21.954Z"
+    "comprobado": "2026-11-13T04:01:20.812Z"
    },
    {
     "id": "deusto",
@@ -9204,7 +9219,7 @@
     "descripcion": "Universidad jesuita con campus en Bilbao y Donostia, referente en ciencias sociales, empresa (Deusto Business School), derecho e ingeniería.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:22.767Z"
+    "comprobado": "2026-11-13T04:01:20.578Z"
    },
    {
     "id": "tecnun",
@@ -9222,7 +9237,7 @@
     "imagen": null,
     "icono": "https://tecnun.unav.edu/o/masteres-theme/images/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:21.837Z"
+    "comprobado": "2026-11-13T04:01:20.153Z"
    },
    {
     "id": "orkestra",
@@ -9242,7 +9257,7 @@
     "imagen": "https://www.orkestra.deusto.es/images/orkestra-instituto-vasco-competitividad.png",
     "icono": "https://www.orkestra.deusto.es/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:23.013Z"
+    "comprobado": "2026-11-13T04:01:21.585Z"
    },
    {
     "id": "bculinary",
@@ -9260,7 +9275,7 @@
     "imagen": "https://www.bculinary.com/public_images/bculinary_fb.png",
     "icono": "https://www.bculinary.com/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:23.753Z"
+    "comprobado": "2026-11-13T04:01:22.517Z"
    },
    {
     "id": "euskampus",
@@ -9278,7 +9293,7 @@
     "imagen": null,
     "icono": "https://www.euskampus.eus/themes/custom/acc_corporative/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:23.413Z"
+    "comprobado": "2026-11-13T04:01:22.142Z"
    },
    {
     "id": "cicbiogune",
@@ -9292,7 +9307,7 @@
     "descripcion": "Investigación biomédica en biología estructural, metabolismo y enfermedades, con foco en la traslación a la clínica.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:24.474Z"
+    "comprobado": "2026-11-13T04:01:23.640Z"
    },
    {
     "id": "cicbiomagune",
@@ -9310,7 +9325,7 @@
     "imagen": null,
     "icono": "https://www.cicbiomagune.es/sites/default/files/logo_biomagune.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:23.674Z"
+    "comprobado": "2026-11-13T04:01:22.462Z"
    },
    {
     "id": "nanogune",
@@ -9328,7 +9343,7 @@
     "imagen": null,
     "icono": "https://www.nanogune.eu/sites/default/files/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:24.977Z"
+    "comprobado": "2026-11-13T04:01:23.814Z"
    },
    {
     "id": "energigune",
@@ -9346,7 +9361,7 @@
     "imagen": "https://cicenergigune.com/media/images/rrss-fallback-image.png",
     "icono": "https://cicenergigune.com/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:26.618Z"
+    "comprobado": "2026-11-13T04:01:24.860Z"
    },
    {
     "id": "bcam",
@@ -9364,7 +9379,7 @@
     "imagen": null,
     "icono": "https://www.bcamath.org/themes/custom/acc_corporative/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:24.905Z"
+    "comprobado": "2026-11-13T04:01:23.568Z"
    },
    {
     "id": "bcbl",
@@ -9382,7 +9397,7 @@
     "imagen": null,
     "icono": "https://www.bcbl.eu/sites/all/themes/acc_foundation/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:25.324Z"
+    "comprobado": "2026-11-13T04:01:24.008Z"
    },
    {
     "id": "bc3",
@@ -9400,7 +9415,7 @@
     "imagen": null,
     "icono": "https://www.bc3research.org/wp-content/uploads/2025/04/bc3_icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:25.870Z"
+    "comprobado": "2026-11-13T04:01:24.573Z"
    },
    {
     "id": "dipc",
@@ -9418,7 +9433,7 @@
     "imagen": "https://dipc.ehu.eus/@@site-logo/dipc-logo.png",
     "icono": "https://dipc.ehu.eus/++theme++dipc-theme/favicon/apple-icon-57x57.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:27.374Z"
+    "comprobado": "2026-11-13T04:01:26.054Z"
    },
    {
     "id": "achucarro",
@@ -9436,7 +9451,7 @@
     "imagen": "https://www.achucarro.org/wp-content/uploads/2022/06/publications_icon.png",
     "icono": "https://www.achucarro.org/wp-content/uploads/2022/01/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:27.899Z"
+    "comprobado": "2026-11-13T04:01:26.185Z"
    },
    {
     "id": "biofisika",
@@ -9454,7 +9469,7 @@
     "imagen": null,
     "icono": "https://www.biofisika.org/sites/default/files/favicon_1.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:26.954Z"
+    "comprobado": "2026-11-13T04:01:25.692Z"
    },
    {
     "id": "polymat",
@@ -9472,7 +9487,7 @@
     "imagen": null,
     "icono": "https://polymat.adibide.eus/site/files/2026/01/favicon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:29.585Z"
+    "comprobado": "2026-11-13T04:01:28.353Z"
    },
    {
     "id": "bcmaterials",
@@ -9490,7 +9505,7 @@
     "imagen": null,
     "icono": "https://www.bcmaterials.net/themes/custom/acc_corporative/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:27.878Z"
+    "comprobado": "2026-11-13T04:01:26.116Z"
    },
    {
     "id": "biogipuzkoa",
@@ -9510,7 +9525,7 @@
     "imagen": "https://bio-gipuzkoa.eus/wp-content/uploads/2025/02/BIOGIPUZKOA_logo-web_horizontal1.png",
     "icono": "https://bio-gipuzkoa.eus/wp-content/uploads/2025/03/cropped-bio-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:27.492Z"
+    "comprobado": "2026-11-13T04:01:26.488Z"
    },
    {
     "id": "biobizkaia",
@@ -9530,7 +9545,7 @@
     "imagen": "https://bio-bizkaia.eus/documents/20121/87668/vlcsnap-2020-12-17-12h20m23s690.png/5224bc9b-4b82-adf2-9f66-ef7365d8431b?version=1.0&t=1615544163236&imagePreview=1",
     "icono": "https://bio-bizkaia.eus/o/classic-theme/images/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:29.512Z"
+    "comprobado": "2026-11-13T04:01:28.554Z"
    },
    {
     "id": "bioaraba",
@@ -9546,7 +9561,7 @@
     "descripcion": "Instituto de investigación sanitaria de Araba, vinculado a Osakidetza y la UPV/EHU.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:30.211Z"
+    "comprobado": "2026-11-13T04:01:28.983Z"
    },
    {
     "id": "biosistemak",
@@ -9566,7 +9581,7 @@
     "imagen": "https://www.bio-sistemak.eus/wp-content/uploads/2025/12/biosistemak-logoyoast.png",
     "icono": "https://www.bio-sistemak.eus/wp-content/uploads/2023/09/BIO_FAVICON_16x16.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:29.265Z"
+    "comprobado": "2026-11-13T04:01:27.757Z"
    },
    {
     "id": "tecnalia",
@@ -9584,7 +9599,7 @@
     "imagen": "https://www.tecnalia.com/fixtures/opengraph.jpg",
     "icono": "https://www.tecnalia.com/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:35.701Z"
+    "comprobado": "2026-11-13T04:01:34.440Z"
    },
    {
     "id": "ikerlan",
@@ -9602,7 +9617,7 @@
     "imagen": "https://www.ikerlan.es/sites/default/files/styles/breakpoint_769/public/2023-12/Ikerlan-home-unete-al-equipo.jpg",
     "icono": "https://www.ikerlan.es/themes/custom/ikerlan/react/dist/favicon.svg",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:28.509Z"
+    "comprobado": "2026-11-13T04:01:28.339Z"
    },
    {
     "id": "vicomtech",
@@ -9620,7 +9635,7 @@
     "imagen": "https://www.vicomtech.org/dist/img/meta-tag-images/og_image.png",
     "icono": "https://www.vicomtech.org/dist/img/favicon/apple-icon-57x57.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:29.606Z"
+    "comprobado": "2026-11-13T04:01:29.479Z"
    },
    {
     "id": "ceit",
@@ -9638,7 +9653,7 @@
     "imagen": null,
     "icono": "https://www.ceit.es/documents/24233193/37513955/faviconCeit.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:29.689Z"
+    "comprobado": "2026-11-13T04:01:29.136Z"
    },
    {
     "id": "tekniker",
@@ -9656,7 +9671,7 @@
     "imagen": null,
     "icono": "https://www.tekniker.es/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:31.027Z"
+    "comprobado": "2026-11-13T04:01:29.920Z"
    },
    {
     "id": "azterlan",
@@ -9674,7 +9689,7 @@
     "imagen": "https://www.azterlan.es/wp-content/uploads/2021/12/AluQ_calida-mealurgica.png",
     "icono": "https://www.azterlan.es/wp-content/uploads/2022/05/cropped-A-icono-azterlan-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:35.999Z"
+    "comprobado": "2026-11-13T04:01:35.183Z"
    },
    {
     "id": "gaiker",
@@ -9692,7 +9707,7 @@
     "imagen": "https://www.gaiker.es/wp-content/uploads/2022/10/miguel_romano.jpg",
     "icono": "https://www.gaiker.es/wp-content/uploads/2022/05/cropped-GaikerFavicon-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:34.339Z"
+    "comprobado": "2026-11-13T04:01:33.513Z"
    },
    {
     "id": "ideko",
@@ -9710,7 +9725,7 @@
     "imagen": null,
     "icono": "https://www.ideko.es/img/IDEKO.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:35.487Z"
+    "comprobado": "2026-11-13T04:01:34.302Z"
    },
    {
     "id": "lortek",
@@ -9728,7 +9743,7 @@
     "imagen": null,
     "icono": "https://www.lortek.es/assets/images/favicon/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:31.487Z"
+    "comprobado": "2026-11-13T04:01:30.368Z"
    },
    {
     "id": "cidetec",
@@ -9746,7 +9761,7 @@
     "imagen": null,
     "icono": "https://cidetec.es/assets/logos-cidetec/logo-cidetec-corporativo-CONTRACT-android-chrome-favicon-512x512.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:31.631Z"
+    "comprobado": "2026-11-13T04:01:30.489Z"
    },
    {
     "id": "azti",
@@ -9766,7 +9781,7 @@
     "imagen": null,
     "icono": "https://www.azti.es/wp-content/themes/azti/images/cropped-AZTI_A-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:32.893Z"
+    "comprobado": "2026-11-13T04:01:31.984Z"
    },
    {
     "id": "neiker",
@@ -9788,7 +9803,7 @@
     "responsables": [
      "gv-811"
     ],
-    "comprobado": "2026-11-12T04:03:33.600Z"
+    "comprobado": "2026-11-13T04:01:32.253Z"
    },
    {
     "id": "bicaraba",
@@ -9805,10 +9820,10 @@
     "online": true,
     "titulo": "BIC Araba — Innovación y emprendimiento en Álava",
     "descripcionWeb": "BIC Araba apoya a empresas y personas emprendedoras en Álava con asesoramiento, ayudas e incubación.",
-    "imagen": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_4wpz7pqjpb9ehvdmpsxgawv4df/19254e65e453c43c03a54461280323fb_1794222213038.png",
+    "imagen": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_4wpz7pqjpb9ehvdmpsxgawv4df/608afd829d456e84826ed9cdfaa5551b_1794471120126.png",
     "icono": "https://bicaraba.eus/favicon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:36.479Z"
+    "comprobado": "2026-11-13T04:01:35.614Z"
    },
    {
     "id": "bicgipuzkoa",
@@ -9828,7 +9843,7 @@
     "imagen": "https://www.bicgipuzkoa.eus/wp-content/uploads/2023/02/fondo-home-1.jpg",
     "icono": "https://www.bicgipuzkoa.eus/wp-content/uploads/2022/11/bic-gipuzkoa-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:35.818Z"
+    "comprobado": "2026-11-13T04:01:33.889Z"
    },
    {
     "id": "bhc",
@@ -9846,7 +9861,7 @@
     "imagen": "https://www.basquehealthcluster.org/assets/themes/core-base-child/assets/images/opengraph_image.jpg",
     "icono": "https://www.basquehealthcluster.org/assets/themes/core-base-child/assets/images/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:36.174Z"
+    "comprobado": "2026-11-13T04:01:35.199Z"
    },
    {
     "id": "gaia",
@@ -9864,7 +9879,7 @@
     "imagen": "https://gaia.es/web/image/website/4/logo?unique=8b65cfa",
     "icono": "https://gaia.es/web/image/website/4/favicon?unique=8b65cfa",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:36.594Z"
+    "comprobado": "2026-11-13T04:01:34.903Z"
    },
    {
     "id": "acicae",
@@ -9882,7 +9897,7 @@
     "imagen": null,
     "icono": "https://www.acicae.es/assets/themes/core-base-child/assets/images/apple-touch-icon.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:39.582Z"
+    "comprobado": "2026-11-13T04:01:37.657Z"
    },
    {
     "id": "hegan",
@@ -9900,7 +9915,7 @@
     "imagen": null,
     "icono": "https://www.hegan.com/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:38.108Z"
+    "comprobado": "2026-11-13T04:01:36.494Z"
    },
    {
     "id": "clusterenergia",
@@ -9914,7 +9929,7 @@
     "descripcion": "Empresas de toda la cadena de valor de la energía: renovables, redes eléctricas, oil & gas e hidrógeno.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:38.648Z"
+    "comprobado": "2026-11-13T04:01:37.368Z"
    },
    {
     "id": "afm",
@@ -9932,7 +9947,7 @@
     "imagen": null,
     "icono": "https://www.afm.es/img/afm.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:37.283Z"
+    "comprobado": "2026-11-13T04:01:36.231Z"
    },
    {
     "id": "basquefood",
@@ -9946,7 +9961,7 @@
     "descripcion": "Clúster de la cadena de valor alimentaria.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:39.478Z"
+    "comprobado": "2026-11-13T04:01:38.243Z"
    },
    {
     "id": "mlc",
@@ -9964,7 +9979,7 @@
     "imagen": "https://mlcluster.com/wp-content/uploads/2026/03/55168296877_41b29b11f1_b.jpg",
     "icono": "https://mlcluster.com/wp-content/uploads/2021/03/favicon-cluster.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:39.884Z"
+    "comprobado": "2026-11-13T04:01:41.994Z"
    },
    {
     "id": "foromaritimo",
@@ -9982,7 +9997,7 @@
     "imagen": null,
     "icono": "https://foromaritimovasco.com/images/favicons/apple-touch-icon-144x144-precomposed.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:37.706Z"
+    "comprobado": "2026-11-13T04:01:36.575Z"
    },
    {
     "id": "aclima",
@@ -9996,7 +10011,7 @@
     "descripcion": "Clúster de empresas medioambientales y de economía circular.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:40.529Z"
+    "comprobado": "2026-11-13T04:01:39.152Z"
    },
    {
     "id": "mondragon",
@@ -10014,7 +10029,7 @@
     "imagen": "https://www.mondragon-corporation.com/wp-content/uploads/2020/05/cropped-logo_out_es_.png",
     "icono": "https://www.mondragon-corporation.com/wp-content/uploads/2019/05/cropped-cropped-logo-180x180.jpg",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:39.206Z"
+    "comprobado": "2026-11-13T04:01:37.492Z"
    },
    {
     "id": "confebask",
@@ -10032,7 +10047,7 @@
     "imagen": null,
     "icono": "https://www.confebask.eus/sites/default/files/7008Confebask_favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:39.771Z"
+    "comprobado": "2026-11-13T04:01:38.328Z"
    },
    {
     "id": "adegi",
@@ -10046,7 +10061,7 @@
     "descripcion": "Asociación empresarial de Gipuzkoa.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:41.843Z"
+    "comprobado": "2026-11-13T04:01:39.652Z"
    },
    {
     "id": "cebek",
@@ -10060,7 +10075,7 @@
     "descripcion": "Confederación empresarial de Bizkaia.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:42.420Z"
+    "comprobado": "2026-11-13T04:01:40.310Z"
    },
    {
     "id": "sea",
@@ -10074,7 +10089,7 @@
     "descripcion": "Asociación empresarial de Álava.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:04:01.786Z"
+    "comprobado": "2026-11-13T04:02:00.743Z"
    },
    {
     "id": "bind40",
@@ -10090,7 +10105,7 @@
     "descripcion": "Programa de aceleración del Gobierno Vasco que conecta startups internacionales con grandes empresas industriales vascas.",
     "online": false,
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:42.884Z"
+    "comprobado": "2026-11-13T04:01:41.235Z"
    },
    {
     "id": "kutxa",
@@ -10108,7 +10123,7 @@
     "imagen": null,
     "icono": "https://kutxafundazioa.eus/themes/custom/kutxa/react/build/kutxa-fundazioa-logo.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:41.271Z"
+    "comprobado": "2026-11-13T04:01:40.436Z"
    },
    {
     "id": "bbk",
@@ -10126,7 +10141,7 @@
     "imagen": "https://www.bbk.eus/wp-content/uploads/2022/09/CursoMUBBK.jpg",
     "icono": "https://www.bbk.eus/wp-content/uploads/2018/10/BBK_IGUAL.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:41.847Z"
+    "comprobado": "2026-11-13T04:01:40.719Z"
    },
    {
     "id": "vital",
@@ -10144,7 +10159,7 @@
     "imagen": "https://www.fundacionvital.eus/themes/fundacionvital/images/fundacion-vital-logo.gif",
     "icono": "https://www.fundacionvital.eus/themes/fundacionvital/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:42.943Z"
+    "comprobado": "2026-11-13T04:01:41.593Z"
    },
    {
     "id": "matia",
@@ -10162,7 +10177,7 @@
     "imagen": null,
     "icono": "https://www.matiafundazioa.eus/sites/default/files/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:43.108Z"
+    "comprobado": "2026-11-13T04:01:41.617Z"
    },
    {
     "id": "konfekoop",
@@ -10180,7 +10195,7 @@
     "imagen": null,
     "icono": "https://konfekoop.coop/wp-content/uploads/2019/09/cropped-ico_logo-180x180.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:43.934Z"
+    "comprobado": "2026-11-13T04:01:42.345Z"
    },
    {
     "id": "ede",
@@ -10198,7 +10213,7 @@
     "imagen": "https://edefundazioa.org/wp-content/uploads/2020/05/froga-730x510.jpg",
     "icono": "https://edefundazioa.org/wp-content/uploads/2019/12/152x152.png",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:43.346Z"
+    "comprobado": "2026-11-13T04:01:42.113Z"
    },
    {
     "id": "sareensarea",
@@ -10216,9 +10231,9 @@
     "imagen": "https://sareensarea.eus/wp-content/uploads/2020/11/logo.png",
     "icono": "https://sareensarea.eus/wp-content/uploads/2020/11/favicon.ico",
     "responsables": [],
-    "comprobado": "2026-11-12T04:03:44.794Z"
+    "comprobado": "2026-11-13T04:01:43.309Z"
    }
   ],
-  "actualizado": "2026-11-12T04:04:01.936Z"
+  "actualizado": "2026-11-13T04:02:00.893Z"
  }
 }
