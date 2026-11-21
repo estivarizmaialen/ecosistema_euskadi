@@ -1,5 +1,17 @@
 [
  {
+  "fecha": "2026-11-21",
+  "cambios": [
+   {
+    "tipo": "gobierno",
+    "accion": "baja",
+    "id": "gv-173",
+    "nombre": "Jokin Diaz Arsuaga",
+    "detalle": "Director de Economía Social"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-14",
   "cambios": [
    {
