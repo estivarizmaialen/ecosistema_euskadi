@@ -1,5 +1,17 @@
 [
  {
+  "fecha": "2026-11-23",
+  "cambios": [
+   {
+    "tipo": "gobierno",
+    "accion": "alta",
+    "id": "gv-855",
+    "nombre": "Norberto Albóniga Buruaga",
+    "detalle": "Director de Economía Social"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-21",
   "cambios": [
    {
