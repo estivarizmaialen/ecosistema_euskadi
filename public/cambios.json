@@ -1,5 +1,24 @@
 [
  {
+  "fecha": "2026-11-26",
+  "cambios": [
+   {
+    "tipo": "gobierno",
+    "accion": "alta",
+    "id": "gv-856",
+    "nombre": "Jesús Arana Gómez",
+    "detalle": "Director General de Euskalmet – Agencia Vasca de Meteorología, S.A"
+   },
+   {
+    "tipo": "gobierno",
+    "accion": "baja",
+    "id": "gv-678",
+    "nombre": "José Antonio Aranda Eguia",
+    "detalle": "Director General de Euskalmet – Agencia Vasca de Meteorología, S.A"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-23",
   "cambios": [
    {
