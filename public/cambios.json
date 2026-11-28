@@ -1,5 +1,17 @@
 [
  {
+  "fecha": "2026-11-28",
+  "cambios": [
+   {
+    "tipo": "gobierno",
+    "accion": "baja",
+    "id": "gv-787",
+    "nombre": "Jon Ansoleaga Ugarte",
+    "detalle": "Director General de SPRI - Agencia Vasca de Desarrollo Empresarial"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-26",
   "cambios": [
    {
